@@ -1,0 +1,106 @@
+PODS:
+  - AFDateHelper (4.3.0)
+  - Alamofire (4.9.1)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - Fabric (1.10.2)
+  - FBSDKCoreKit (6.3.0):
+    - FBSDKCoreKit/Basics (= 6.3.0)
+    - FBSDKCoreKit/Core (= 6.3.0)
+  - FBSDKCoreKit/Basics (6.3.0)
+  - FBSDKCoreKit/Core (6.3.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (6.3.0):
+    - FBSDKLoginKit/Login (= 6.3.0)
+  - FBSDKLoginKit/Login (6.3.0):
+    - FBSDKCoreKit (~> 6.3.0)
+  - FBSDKShareKit (6.3.0):
+    - FBSDKShareKit/Share (= 6.3.0)
+  - FBSDKShareKit/Share (6.3.0):
+    - FBSDKCoreKit (~> 6.3.0)
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.8.0):
+    - GoogleMaps/Base (= 3.8.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - KeychainAccess (4.1.0)
+  - Kingfisher (4.10.1)
+  - LinearProgressBarMaterial (1.3)
+  - MBProgressHUD (1.2.0)
+  - ReachabilitySwift (5.0.0)
+  - SkeletonView (1.8.7)
+  - UIGradient (1.3.1)
+
+DEPENDENCIES:
+  - AFDateHelper
+  - Alamofire
+  - Bolts
+  - Crashlytics
+  - Fabric
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - GoogleMaps
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - KeychainAccess
+  - Kingfisher
+  - LinearProgressBarMaterial
+  - MBProgressHUD
+  - ReachabilitySwift
+  - SkeletonView
+  - UIGradient
+
+SPEC REPOS:
+  trunk:
+    - AFDateHelper
+    - Alamofire
+    - Bolts
+    - Crashlytics
+    - Fabric
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - GoogleMaps
+    - GooglePlaces
+    - IQKeyboardManagerSwift
+    - KeychainAccess
+    - Kingfisher
+    - LinearProgressBarMaterial
+    - MBProgressHUD
+    - ReachabilitySwift
+    - SkeletonView
+    - UIGradient
+
+SPEC CHECKSUMS:
+  AFDateHelper: b769c07d3d4784ee9a74633285304261bb27dc52
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  FBSDKCoreKit: 5d55c8f3007c9c49b793617b9102e46355fc7e17
+  FBSDKLoginKit: d46aa04d9bb9990a4deb6441736fae24a8c94496
+  FBSDKShareKit: cbd309f29d00e596bc28319724a7519940e804fa
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  GooglePlaces: d5f70c3e9e427964fdeca1301a665d276ccd8754
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  KeychainAccess: 445e28864fe6d3458b41fa211bcdc39890e8bd5a
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  LinearProgressBarMaterial: 84df3135c27a0fc5e0219da10ee98304de159b06
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SkeletonView: ba5370f41280b2f0a76918bb143c1294232bb4f4
+  UIGradient: 9c7041327bf202b09aab2db7c33fb41f768b19ea
+
+PODFILE CHECKSUM: a4ccdda7f7b5ca60f96541dd79b9ef4ae8740529
+
+COCOAPODS: 1.9.0
