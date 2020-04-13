@@ -30,6 +30,24 @@
 		0846A5952444981B00D8BD91 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0846A5822444981A00D8BD91 /* Poppins-Medium.ttf */; };
 		0846A5962444981B00D8BD91 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0846A5832444981B00D8BD91 /* Poppins-ExtraBoldItalic.ttf */; };
 		0846A5972444981B00D8BD91 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0846A5842444981B00D8BD91 /* OFL.txt */; };
+		0846A5992444A98700D8BD91 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5982444A98700D8BD91 /* Protocol.swift */; };
+		0846A59D2444A9AA00D8BD91 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A59C2444A9AA00D8BD91 /* HomeViewController.swift */; };
+		0846A59F2444A9B800D8BD91 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A59E2444A9B800D8BD91 /* HomePresenter.swift */; };
+		0846A5A12444A9C400D8BD91 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5A02444A9C400D8BD91 /* HomeRouter.swift */; };
+		0846A5A52444AA5C00D8BD91 /* ErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0846A5A32444AA5B00D8BD91 /* ErrorView.xib */; };
+		0846A5A62444AA5C00D8BD91 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5A42444AA5B00D8BD91 /* ErrorView.swift */; };
+		0846A5AA2444AA6600D8BD91 /* AlertWithOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5A82444AA6600D8BD91 /* AlertWithOptionsViewController.swift */; };
+		0846A5AB2444AA6600D8BD91 /* AlertWithOptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0846A5A92444AA6600D8BD91 /* AlertWithOptionsViewController.xib */; };
+		0846A5AE2444AEAF00D8BD91 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5AD2444AEAF00D8BD91 /* UserApi.swift */; };
+		0846A5B02444B10E00D8BD91 /* StateWiseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5AF2444B10E00D8BD91 /* StateWiseDataModel.swift */; };
+		0846A5B22444B21100D8BD91 /* TestedCasesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5B12444B21000D8BD91 /* TestedCasesModel.swift */; };
+		0846A5B42444B2A600D8BD91 /* CaseTimeSeriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5B32444B2A600D8BD91 /* CaseTimeSeriesModel.swift */; };
+		0846A5B82444C43000D8BD91 /* UpdatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5B72444C43000D8BD91 /* UpdatesViewController.swift */; };
+		0846A5BA2444C44800D8BD91 /* UpdatesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5B92444C44800D8BD91 /* UpdatesPresenter.swift */; };
+		0846A5BC2444C45600D8BD91 /* UpdatesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5BB2444C45600D8BD91 /* UpdatesRouter.swift */; };
+		0846A5C02444C68B00D8BD91 /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5BE2444C68B00D8BD91 /* TextViewTableViewCell.swift */; };
+		0846A5C12444C68B00D8BD91 /* TextViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0846A5BF2444C68B00D8BD91 /* TextViewTableViewCell.xib */; };
+		0846A5C32444C97500D8BD91 /* UpdatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5C22444C97500D8BD91 /* UpdatesModel.swift */; };
 		08D2B36722B52A120063B14C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D2B36622B52A120063B14C /* Config.swift */; };
 		251F3AF1692075C5DF1736A9 /* Pods_covid_19_IND.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DDC101937D4B181CD09831 /* Pods_covid_19_IND.framework */; };
 		2715AC07A09F3E688B2A70DB /* Pods_covid_19_INDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E142A50F30AFCF47BEF4C56 /* Pods_covid_19_INDTests.framework */; };
@@ -167,6 +185,24 @@
 		0846A5822444981A00D8BD91 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		0846A5832444981B00D8BD91 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		0846A5842444981B00D8BD91 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		0846A5982444A98700D8BD91 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		0846A59C2444A9AA00D8BD91 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0846A59E2444A9B800D8BD91 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		0846A5A02444A9C400D8BD91 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		0846A5A32444AA5B00D8BD91 /* ErrorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ErrorView.xib; sourceTree = "<group>"; };
+		0846A5A42444AA5B00D8BD91 /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		0846A5A82444AA6600D8BD91 /* AlertWithOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertWithOptionsViewController.swift; sourceTree = "<group>"; };
+		0846A5A92444AA6600D8BD91 /* AlertWithOptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertWithOptionsViewController.xib; sourceTree = "<group>"; };
+		0846A5AD2444AEAF00D8BD91 /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		0846A5AF2444B10E00D8BD91 /* StateWiseDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWiseDataModel.swift; sourceTree = "<group>"; };
+		0846A5B12444B21000D8BD91 /* TestedCasesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestedCasesModel.swift; sourceTree = "<group>"; };
+		0846A5B32444B2A600D8BD91 /* CaseTimeSeriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseTimeSeriesModel.swift; sourceTree = "<group>"; };
+		0846A5B72444C43000D8BD91 /* UpdatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesViewController.swift; sourceTree = "<group>"; };
+		0846A5B92444C44800D8BD91 /* UpdatesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesPresenter.swift; sourceTree = "<group>"; };
+		0846A5BB2444C45600D8BD91 /* UpdatesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesRouter.swift; sourceTree = "<group>"; };
+		0846A5BE2444C68B00D8BD91 /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
+		0846A5BF2444C68B00D8BD91 /* TextViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewTableViewCell.xib; sourceTree = "<group>"; };
+		0846A5C22444C97500D8BD91 /* UpdatesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesModel.swift; sourceTree = "<group>"; };
 		08D2B36322B527E80063B14C /* Inforu-Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Inforu-Dev.xcconfig"; sourceTree = "<group>"; };
 		08D2B36422B527F90063B14C /* Inforu-Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Inforu-Test.xcconfig"; sourceTree = "<group>"; };
 		08D2B36522B528050063B14C /* Inforu-Live.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Inforu-Live.xcconfig"; sourceTree = "<group>"; };
@@ -371,6 +407,77 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		0846A59A2444A99000D8BD91 /* HomeFlow */ = {
+			isa = PBXGroup;
+			children = (
+				0846A59B2444A99700D8BD91 /* HomeVC */,
+			);
+			path = HomeFlow;
+			sourceTree = "<group>";
+		};
+		0846A59B2444A99700D8BD91 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				0846A59C2444A9AA00D8BD91 /* HomeViewController.swift */,
+				0846A59E2444A9B800D8BD91 /* HomePresenter.swift */,
+				0846A5A02444A9C400D8BD91 /* HomeRouter.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		0846A5A22444AA5B00D8BD91 /* ErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				0846A5A32444AA5B00D8BD91 /* ErrorView.xib */,
+				0846A5A42444AA5B00D8BD91 /* ErrorView.swift */,
+			);
+			path = ErrorView;
+			sourceTree = "<group>";
+		};
+		0846A5A72444AA6600D8BD91 /* CustomAlert */ = {
+			isa = PBXGroup;
+			children = (
+				0846A5A82444AA6600D8BD91 /* AlertWithOptionsViewController.swift */,
+				0846A5A92444AA6600D8BD91 /* AlertWithOptionsViewController.xib */,
+			);
+			path = CustomAlert;
+			sourceTree = "<group>";
+		};
+		0846A5AC2444AE9B00D8BD91 /* UserAPI */ = {
+			isa = PBXGroup;
+			children = (
+				0846A5AD2444AEAF00D8BD91 /* UserApi.swift */,
+			);
+			path = UserAPI;
+			sourceTree = "<group>";
+		};
+		0846A5B52444C41400D8BD91 /* UpdateFlow */ = {
+			isa = PBXGroup;
+			children = (
+				0846A5B62444C41B00D8BD91 /* UpdatesViewController */,
+			);
+			path = UpdateFlow;
+			sourceTree = "<group>";
+		};
+		0846A5B62444C41B00D8BD91 /* UpdatesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0846A5B72444C43000D8BD91 /* UpdatesViewController.swift */,
+				0846A5B92444C44800D8BD91 /* UpdatesPresenter.swift */,
+				0846A5BB2444C45600D8BD91 /* UpdatesRouter.swift */,
+			);
+			path = UpdatesViewController;
+			sourceTree = "<group>";
+		};
+		0846A5BD2444C67300D8BD91 /* UpdatesVC */ = {
+			isa = PBXGroup;
+			children = (
+				0846A5BE2444C68B00D8BD91 /* TextViewTableViewCell.swift */,
+				0846A5BF2444C68B00D8BD91 /* TextViewTableViewCell.xib */,
+			);
+			path = UpdatesVC;
+			sourceTree = "<group>";
+		};
 		08D2B36222B527DA0063B14C /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -512,6 +619,9 @@
 		F460455C1FCC30D700DC976D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				0846A5B52444C41400D8BD91 /* UpdateFlow */,
+				0846A59A2444A99000D8BD91 /* HomeFlow */,
+				0846A5982444A98700D8BD91 /* Protocol.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -519,6 +629,9 @@
 		F460455E1FCC30DE00DC976D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0846A5BD2444C67300D8BD91 /* UpdatesVC */,
+				0846A5A22444AA5B00D8BD91 /* ErrorView */,
+				0846A5A72444AA6600D8BD91 /* CustomAlert */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -526,6 +639,10 @@
 		F460455F1FCC30E500DC976D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0846A5AF2444B10E00D8BD91 /* StateWiseDataModel.swift */,
+				0846A5B12444B21000D8BD91 /* TestedCasesModel.swift */,
+				0846A5B32444B2A600D8BD91 /* CaseTimeSeriesModel.swift */,
+				0846A5C22444C97500D8BD91 /* UpdatesModel.swift */,
 				F46045681FCC32A200DC976D /* User.swift */,
 				F46045631FCC322500DC976D /* Human.swift */,
 				F46045641FCC325200DC976D /* Me.swift */,
@@ -584,6 +701,7 @@
 		F49759991FCE84DD00B8BB6C /* APIs */ = {
 			isa = PBXGroup;
 			children = (
+				0846A5AC2444AE9B00D8BD91 /* UserAPI */,
 				F49759E11FCE906800B8BB6C /* PersistencyManager */,
 				F49759DE1FCE902900B8BB6C /* LoginManager */,
 				F49759DB1FCE8FB200B8BB6C /* Error */,
@@ -948,6 +1066,7 @@
 				0846A58E2444981B00D8BD91 /* Poppins-BlackItalic.ttf in Resources */,
 				F4975A6A1FCEA04400B8BB6C /* Images.xcassets in Resources */,
 				0846A5862444981B00D8BD91 /* Poppins-ExtraLight.ttf in Resources */,
+				0846A5AB2444AA6600D8BD91 /* AlertWithOptionsViewController.xib in Resources */,
 				0846A5932444981B00D8BD91 /* Poppins-ExtraLightItalic.ttf in Resources */,
 				0846A58F2444981B00D8BD91 /* Poppins-Black.ttf in Resources */,
 				0846A5972444981B00D8BD91 /* OFL.txt in Resources */,
@@ -961,11 +1080,13 @@
 				F46045341FCC2EEA00DC976D /* Assets.xcassets in Resources */,
 				0846A58B2444981B00D8BD91 /* Poppins-ExtraBold.ttf in Resources */,
 				0846A5882444981B00D8BD91 /* Poppins-Regular.ttf in Resources */,
+				0846A5C12444C68B00D8BD91 /* TextViewTableViewCell.xib in Resources */,
 				0846A54A2444979500D8BD91 /* Home.storyboard in Resources */,
 				0846A5962444981B00D8BD91 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				0846A5922444981B00D8BD91 /* Poppins-SemiBoldItalic.ttf in Resources */,
 				0846A5902444981B00D8BD91 /* Poppins-ThinItalic.ttf in Resources */,
 				0846A5952444981B00D8BD91 /* Poppins-Medium.ttf in Resources */,
+				0846A5A52444AA5C00D8BD91 /* ErrorView.xib in Resources */,
 				0846A5872444981B00D8BD91 /* Poppins-Thin.ttf in Resources */,
 				0846A5912444981B00D8BD91 /* Poppins-BoldItalic.ttf in Resources */,
 			);
@@ -1193,12 +1314,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4975A461FCEA01200B8BB6C /* CaseValidationPattern.swift in Sources */,
+				0846A5B42444B2A600D8BD91 /* CaseTimeSeriesModel.swift in Sources */,
 				F4975A0C1FCE9E3C00B8BB6C /* HTTPStatusCodes+Extensions.swift in Sources */,
 				F4975A521FCEA01700B8BB6C /* ValidationRulePattern.swift in Sources */,
+				0846A5C32444C97500D8BD91 /* UpdatesModel.swift in Sources */,
 				F49759DD1FCE8FC700B8BB6C /* CustomError.swift in Sources */,
 				F4975A541FCEA01700B8BB6C /* ValidationRuleRequired.swift in Sources */,
 				F4975A631FCEA04400B8BB6C /* CLCountryCell.swift in Sources */,
 				F49759C91FCE8E0000B8BB6C /* CLApp+Extension.swift in Sources */,
+				0846A5B02444B10E00D8BD91 /* StateWiseDataModel.swift in Sources */,
 				F49759D31FCE8E0000B8BB6C /* UIColor+Extension.swift in Sources */,
 				F4975A0D1FCE9E3F00B8BB6C /* ImagePickerButton.swift in Sources */,
 				F4975A551FCEA01700B8BB6C /* ValidationRuleURL.swift in Sources */,
@@ -1216,17 +1340,23 @@
 				F49759C71FCE8E0000B8BB6C /* CLAlertController+Extension.swift in Sources */,
 				F4975A101FCE9E4300B8BB6C /* PersistentStoreLocation.swift in Sources */,
 				F49759CA1FCE8E0000B8BB6C /* CLCollection+Extension.swift in Sources */,
+				0846A5B22444B21100D8BD91 /* TestedCasesModel.swift in Sources */,
 				F4975A111FCE9E5000B8BB6C /* LogsConstant.swift in Sources */,
 				F4975A131FCE9E5300B8BB6C /* Network.swift in Sources */,
 				F4975A071FCE9E3900B8BB6C /* CLTextField.swift in Sources */,
 				F4975A141FCE9E5500B8BB6C /* VersionManager.swift in Sources */,
 				F4975A4B1FCEA01700B8BB6C /* ValidationRuleBlank.swift in Sources */,
+				0846A59F2444A9B800D8BD91 /* HomePresenter.swift in Sources */,
 				F4975A091FCE9E3900B8BB6C /* CLValidatorManager.swift in Sources */,
 				F4975A081FCE9E3900B8BB6C /* CLValidationRules.swift in Sources */,
 				F4975A5A1FCEA01D00B8BB6C /* ValidationRuleSet.swift in Sources */,
+				0846A5992444A98700D8BD91 /* Protocol.swift in Sources */,
+				0846A5AA2444AA6600D8BD91 /* AlertWithOptionsViewController.swift in Sources */,
 				08D2B36722B52A120063B14C /* Config.swift in Sources */,
 				F49759C81FCE8E0000B8BB6C /* CLAPP+EnvConfig.swift in Sources */,
 				F4975A0E1FCE9E4300B8BB6C /* LocationBackgroundTaskManager.swift in Sources */,
+				0846A5C02444C68B00D8BD91 /* TextViewTableViewCell.swift in Sources */,
+				0846A5A12444A9C400D8BD91 /* HomeRouter.swift in Sources */,
 				F4975A5B1FCEA01D00B8BB6C /* Validator.swift in Sources */,
 				F4975A0F1FCE9E4300B8BB6C /* LocationTracker.swift in Sources */,
 				F4975A621FCEA03900B8BB6C /* FBManager.swift in Sources */,
@@ -1244,17 +1374,22 @@
 				F4975A0B1FCE9E3C00B8BB6C /* HTTPStatusCodes.swift in Sources */,
 				F49759E91FCE90A800B8BB6C /* PersistencyManager.swift in Sources */,
 				F49759D01FCE8E0000B8BB6C /* Designable.swift in Sources */,
+				0846A5A62444AA5C00D8BD91 /* ErrorView.swift in Sources */,
 				F4975A051FCE9E3500B8BB6C /* APNSManager.swift in Sources */,
 				F49759D51FCE8E0000B8BB6C /* Validation.swift in Sources */,
 				F49759CB1FCE8E0000B8BB6C /* CLObject+Extension.swift in Sources */,
 				F4975A061FCE9E3500B8BB6C /* CLApp+APNS.swift in Sources */,
 				F49759E01FCE903C00B8BB6C /* LoginManager.swift in Sources */,
 				F4975A4C1FCEA01700B8BB6C /* ValidationRuleComparison.swift in Sources */,
+				0846A5AE2444AEAF00D8BD91 /* UserApi.swift in Sources */,
 				F4975A481FCEA01200B8BB6C /* EmailValidationPattern.swift in Sources */,
 				F49759E51FCE908A00B8BB6C /* Me.swift in Sources */,
+				0846A5BC2444C45600D8BD91 /* UpdatesRouter.swift in Sources */,
 				F49759CD1FCE8E0000B8BB6C /* CLView+Extension.swift in Sources */,
 				F4975A4A1FCEA01200B8BB6C /* ValidationPattern.swift in Sources */,
+				0846A5BA2444C44800D8BD91 /* UpdatesPresenter.swift in Sources */,
 				F49759E61FCE908A00B8BB6C /* Personable.swift in Sources */,
+				0846A5B82444C43000D8BD91 /* UpdatesViewController.swift in Sources */,
 				F49759D21FCE8E0000B8BB6C /* String+Extention.swift in Sources */,
 				F4975A691FCEA04400B8BB6C /* CountryManager.swift in Sources */,
 				F4975A681FCEA04400B8BB6C /* Country.swift in Sources */,
@@ -1268,6 +1403,7 @@
 				F4975A591FCEA01D00B8BB6C /* ValidationRule.swift in Sources */,
 				F4975A5E1FCEA03100B8BB6C /* MenuBarProtocol.swift in Sources */,
 				F4975A0A1FCE9E3C00B8BB6C /* HTTPRequest.swift in Sources */,
+				0846A59D2444A9AA00D8BD91 /* HomeViewController.swift in Sources */,
 				F4975A471FCEA01200B8BB6C /* ContainsNumberValidationPattern.swift in Sources */,
 				F4975A5F1FCEA03100B8BB6C /* MenuBarView.swift in Sources */,
 				F4975A651FCEA04400B8BB6C /* CLCountryPickerController.swift in Sources */,

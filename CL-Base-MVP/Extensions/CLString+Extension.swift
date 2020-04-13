@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 // MARK: -
 extension String {
@@ -111,4 +112,17 @@ extension String {
     self = urlEncoded()
   }
   
+}
+
+
+extension String {
+    
+    func heightWithConstrainedWidth(width: CGFloat, font: UIFont) -> CGRect {
+        let constraintRect = CGSize(width: width, height: CGFloat.greatestFiniteMagnitude)
+        
+        let boundingBox = self.boundingRect(with: constraintRect,
+                                            options: NSStringDrawingOptions.usesLineFragmentOrigin,
+                                            attributes: [NSAttributedString.Key.font: font], context: nil)
+        return boundingBox
+    }
 }

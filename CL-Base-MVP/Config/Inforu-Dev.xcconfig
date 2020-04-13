@@ -12,4 +12,4 @@
 SLASH = /
 
 APP_NAME = COViD_D
-BASE_URL = https:$(SLASH)/api.covid19india.org
+BASE_URL = https:$(SLASH)/api.covid19india.org/
