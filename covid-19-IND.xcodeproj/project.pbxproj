@@ -48,6 +48,10 @@
 		0846A5C02444C68B00D8BD91 /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5BE2444C68B00D8BD91 /* TextViewTableViewCell.swift */; };
 		0846A5C12444C68B00D8BD91 /* TextViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0846A5BF2444C68B00D8BD91 /* TextViewTableViewCell.xib */; };
 		0846A5C32444C97500D8BD91 /* UpdatesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0846A5C22444C97500D8BD91 /* UpdatesModel.swift */; };
+		088E494F24450EC5009A1B46 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E494E24450EC5009A1B46 /* SplashViewController.swift */; };
+		088E495124450F51009A1B46 /* FactoidsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E495024450F51009A1B46 /* FactoidsModel.swift */; };
+		088E495324450F99009A1B46 /* FaqModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E495224450F99009A1B46 /* FaqModel.swift */; };
+		088E49552445105D009A1B46 /* AppInfoFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E49542445105D009A1B46 /* AppInfoFiles.swift */; };
 		08D2B36722B52A120063B14C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D2B36622B52A120063B14C /* Config.swift */; };
 		251F3AF1692075C5DF1736A9 /* Pods_covid_19_IND.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DDC101937D4B181CD09831 /* Pods_covid_19_IND.framework */; };
 		2715AC07A09F3E688B2A70DB /* Pods_covid_19_INDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E142A50F30AFCF47BEF4C56 /* Pods_covid_19_INDTests.framework */; };
@@ -203,6 +207,10 @@
 		0846A5BE2444C68B00D8BD91 /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
 		0846A5BF2444C68B00D8BD91 /* TextViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewTableViewCell.xib; sourceTree = "<group>"; };
 		0846A5C22444C97500D8BD91 /* UpdatesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesModel.swift; sourceTree = "<group>"; };
+		088E494E24450EC5009A1B46 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		088E495024450F51009A1B46 /* FactoidsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoidsModel.swift; sourceTree = "<group>"; };
+		088E495224450F99009A1B46 /* FaqModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqModel.swift; sourceTree = "<group>"; };
+		088E49542445105D009A1B46 /* AppInfoFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoFiles.swift; sourceTree = "<group>"; };
 		08D2B36322B527E80063B14C /* Inforu-Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Inforu-Dev.xcconfig"; sourceTree = "<group>"; };
 		08D2B36422B527F90063B14C /* Inforu-Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Inforu-Test.xcconfig"; sourceTree = "<group>"; };
 		08D2B36522B528050063B14C /* Inforu-Live.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Inforu-Live.xcconfig"; sourceTree = "<group>"; };
@@ -622,6 +630,7 @@
 				0846A5B52444C41400D8BD91 /* UpdateFlow */,
 				0846A59A2444A99000D8BD91 /* HomeFlow */,
 				0846A5982444A98700D8BD91 /* Protocol.swift */,
+				088E494E24450EC5009A1B46 /* SplashViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -643,6 +652,9 @@
 				0846A5B12444B21000D8BD91 /* TestedCasesModel.swift */,
 				0846A5B32444B2A600D8BD91 /* CaseTimeSeriesModel.swift */,
 				0846A5C22444C97500D8BD91 /* UpdatesModel.swift */,
+				088E495024450F51009A1B46 /* FactoidsModel.swift */,
+				088E495224450F99009A1B46 /* FaqModel.swift */,
+				088E49542445105D009A1B46 /* AppInfoFiles.swift */,
 				F46045681FCC32A200DC976D /* User.swift */,
 				F46045631FCC322500DC976D /* Human.swift */,
 				F46045641FCC325200DC976D /* Me.swift */,
@@ -1367,6 +1379,7 @@
 				F4975A561FCEA01D00B8BB6C /* Validatable.swift in Sources */,
 				F4975A611FCEA03400B8BB6C /* CLProgressHUD.swift in Sources */,
 				F4975A601FCEA03100B8BB6C /* MenuItem.swift in Sources */,
+				088E495124450F51009A1B46 /* FactoidsModel.swift in Sources */,
 				F49759DA1FCE8F4C00B8BB6C /* CLAppConstants.swift in Sources */,
 				F49759D11FCE8E0000B8BB6C /* Enum+Extension.swift in Sources */,
 				F49759CC1FCE8E0000B8BB6C /* CLString+Extension.swift in Sources */,
@@ -1376,6 +1389,8 @@
 				F49759D01FCE8E0000B8BB6C /* Designable.swift in Sources */,
 				0846A5A62444AA5C00D8BD91 /* ErrorView.swift in Sources */,
 				F4975A051FCE9E3500B8BB6C /* APNSManager.swift in Sources */,
+				088E495324450F99009A1B46 /* FaqModel.swift in Sources */,
+				088E494F24450EC5009A1B46 /* SplashViewController.swift in Sources */,
 				F49759D51FCE8E0000B8BB6C /* Validation.swift in Sources */,
 				F49759CB1FCE8E0000B8BB6C /* CLObject+Extension.swift in Sources */,
 				F4975A061FCE9E3500B8BB6C /* CLApp+APNS.swift in Sources */,
@@ -1405,6 +1420,7 @@
 				F4975A0A1FCE9E3C00B8BB6C /* HTTPRequest.swift in Sources */,
 				0846A59D2444A9AA00D8BD91 /* HomeViewController.swift in Sources */,
 				F4975A471FCEA01200B8BB6C /* ContainsNumberValidationPattern.swift in Sources */,
+				088E49552445105D009A1B46 /* AppInfoFiles.swift in Sources */,
 				F4975A5F1FCEA03100B8BB6C /* MenuBarView.swift in Sources */,
 				F4975A651FCEA04400B8BB6C /* CLCountryPickerController.swift in Sources */,
 				F497599D1FCE859500B8BB6C /* SwiftConstants.swift in Sources */,

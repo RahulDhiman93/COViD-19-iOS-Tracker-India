@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZV8-fJ-mUQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ew5-4Q-RFY">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -757,6 +757,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="agm-SA-t9X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="25" y="-644"/>
+        </scene>
+        <!--Splash View Controller-->
+        <scene sceneID="HBM-y1-CCx">
+            <objects>
+                <viewController storyboardIdentifier="SplashViewController" id="Ew5-4Q-RFY" customClass="SplashViewController" customModule="COViD_19_IND" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ubV-wx-yDt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flagBG" translatesAutoresizingMaskIntoConstraints="NO" id="N7e-BA-DPa">
+                                <rect key="frame" x="0.0" y="285" width="414" height="326"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="sbO-QE-geD">
+                                <rect key="frame" x="188.5" y="782" width="37" height="37"/>
+                                <color key="color" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="N7e-BA-DPa" firstAttribute="centerX" secondItem="ubV-wx-yDt" secondAttribute="centerX" id="72A-qh-qiU"/>
+                            <constraint firstItem="N7e-BA-DPa" firstAttribute="centerY" secondItem="ubV-wx-yDt" secondAttribute="centerY" id="KYV-88-Efu"/>
+                            <constraint firstItem="N7e-BA-DPa" firstAttribute="leading" secondItem="ubV-wx-yDt" secondAttribute="leading" id="Pof-fZ-LZr"/>
+                            <constraint firstAttribute="trailing" secondItem="N7e-BA-DPa" secondAttribute="trailing" id="bLE-eL-6iR"/>
+                            <constraint firstItem="yXQ-iI-aeu" firstAttribute="bottom" secondItem="sbO-QE-geD" secondAttribute="bottom" constant="43" id="fpU-is-Cxl"/>
+                            <constraint firstItem="sbO-QE-geD" firstAttribute="centerX" secondItem="yXQ-iI-aeu" secondAttribute="centerX" id="nBQ-hS-OLd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yXQ-iI-aeu"/>
+                    </view>
+                    <connections>
+                        <outlet property="hudView" destination="sbO-QE-geD" id="Hjl-u0-H4a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HWZ-6D-n09" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2103" y="76"/>
         </scene>
     </scenes>
     <resources>
