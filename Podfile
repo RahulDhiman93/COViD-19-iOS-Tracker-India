@@ -25,6 +25,7 @@ target 'covid-19-IND' do
     pod 'Kingfisher'
     pod 'LinearProgressBarMaterial'
     pod 'SkeletonView'
+    pod 'SSCustomTabbar'
 
   target 'covid-19-INDTests' do
     inherit! :search_paths

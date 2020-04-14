@@ -19,16 +19,47 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Updates-->
-        <scene sceneID="nhP-ao-Tdy">
+        <!--Resources-->
+        <scene sceneID="6oC-iv-LKW">
             <objects>
-                <viewController storyboardIdentifier="UpdatesViewController" id="o23-BE-U2J" customClass="UpdatesViewController" customModule="COViD_19_IND" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="W9A-U1-ncI">
+                <viewController storyboardIdentifier="ResourcesViewController" id="moB-50-Z0S" customClass="ResourcesViewController" customModule="HInd_Trac" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FUF-ae-LC7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8Ju-az-wc0">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7dt-WT-B9o" firstAttribute="trailing" secondItem="8Ju-az-wc0" secondAttribute="trailing" id="3cS-WD-N9x"/>
+                            <constraint firstItem="8Ju-az-wc0" firstAttribute="top" secondItem="7dt-WT-B9o" secondAttribute="top" id="GMc-1G-mWl"/>
+                            <constraint firstItem="7dt-WT-B9o" firstAttribute="bottom" secondItem="8Ju-az-wc0" secondAttribute="bottom" id="USB-UG-317"/>
+                            <constraint firstItem="8Ju-az-wc0" firstAttribute="leading" secondItem="7dt-WT-B9o" secondAttribute="leading" id="fxX-yK-GSO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7dt-WT-B9o"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Resources" id="wI1-bJ-hTF"/>
+                    <connections>
+                        <outlet property="resourcesTableView" destination="8Ju-az-wc0" id="hLQ-y3-m1Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Zg-YG-03d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="935" y="-1362"/>
+        </scene>
+        <!--Updates-->
+        <scene sceneID="nhP-ao-Tdy">
+            <objects>
+                <viewController storyboardIdentifier="UpdatesViewController" id="o23-BE-U2J" customClass="UpdatesViewController" customModule="HInd_Trac" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="W9A-U1-ncI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3fW-HT-ItL">
-                                <rect key="frame" x="0.0" y="140" width="414" height="673"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -53,38 +84,38 @@
         <!--COViD-19 Cases-->
         <scene sceneID="YKp-gN-Uhc">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="Ur5-U5-hz3" customClass="HomeViewController" customModule="COViD_19_IND" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="Ur5-U5-hz3" customClass="HomeViewController" customModule="HInd_Trac" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1Cj-bb-ifi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flagBG" translatesAutoresizingMaskIntoConstraints="NO" id="XOa-IU-a7M">
-                                <rect key="frame" x="0.0" y="467" width="414" height="326"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flagBG" translatesAutoresizingMaskIntoConstraints="NO" id="XOa-IU-a7M">
+                                <rect key="frame" x="0.0" y="467.5" width="414" height="325.5"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ngt-KV-cOF">
-                                <rect key="frame" x="295" y="145" width="99" height="60"/>
+                                <rect key="frame" x="295" y="145" width="99" height="32"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b8L-1q-flx">
-                                        <rect key="frame" x="0.0" y="0.0" width="99" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="99" height="32"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3bG-6S-PCY">
-                                                <rect key="frame" x="5" y="5" width="89" height="50"/>
+                                                <rect key="frame" x="5" y="5" width="89" height="22"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGc-9i-Ajj">
-                                                        <rect key="frame" x="0.0" y="0.0" width="65.5" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="65.5" height="22"/>
                                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4g-qG-DPK">
-                                                        <rect key="frame" x="70.5" y="0.0" width="18.5" height="50"/>
+                                                        <rect key="frame" x="70.5" y="0.0" width="18.5" height="22"/>
                                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <state key="normal" image="chevron.down" catalog="system"/>
                                                     </button>
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hd7-MA-sIZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="99" height="60"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="99" height="32"/>
                                                 <connections>
                                                     <action selector="changeDateAction:" destination="Ur5-U5-hz3" eventType="touchUpInside" id="gZy-fn-0fr"/>
                                                 </connections>
@@ -130,29 +161,35 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Updated " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSG-zA-WP2">
+                                <rect key="frame" x="338" y="182" width="56" height="17"/>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="12"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2n0-JF-x0d">
-                                <rect key="frame" x="18" y="220" width="378" height="221"/>
+                                <rect key="frame" x="18" y="204" width="378" height="253.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fVt-xM-Lq6">
-                                        <rect key="frame" x="0.0" y="0.0" width="378" height="87"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="378" height="119.5"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R9F-0y-MFR">
-                                                <rect key="frame" x="0.0" y="0.0" width="87" height="87"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="119.5" height="119.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivV-0c-BXb">
-                                                        <rect key="frame" x="0.0" y="0.0" width="87" height="87"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="119.5" height="119.5"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="xvG-Dp-ECe">
-                                                                <rect key="frame" x="5" y="5" width="77" height="77"/>
+                                                                <rect key="frame" x="5" y="5" width="109.5" height="109.5"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONFIRMED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="kQ0-XP-OeH">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="77" height="38.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="109.5" height="54.5"/>
                                                                         <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="12"/>
                                                                         <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="1Oy-kC-OQ7">
-                                                                        <rect key="frame" x="0.0" y="38.5" width="77" height="38.5"/>
+                                                                        <rect key="frame" x="0.0" y="54.5" width="109.5" height="55"/>
                                                                         <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="20"/>
                                                                         <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -197,23 +234,23 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjG-bI-Qhm">
-                                                <rect key="frame" x="97" y="0.0" width="87" height="87"/>
+                                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjG-bI-Qhm">
+                                                <rect key="frame" x="124.5" y="0.0" width="119" height="119.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jb6-Jr-ES3">
-                                                        <rect key="frame" x="0.0" y="0.0" width="87" height="87"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="119" height="119.5"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ls8-X6-TDi">
-                                                                <rect key="frame" x="5" y="5" width="77" height="77"/>
+                                                                <rect key="frame" x="5" y="5" width="109" height="109.5"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ACTIVE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="56L-uT-jZz">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="77" height="38.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="109" height="54.5"/>
                                                                         <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="12"/>
                                                                         <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="yfs-Lr-C3C">
-                                                                        <rect key="frame" x="0.0" y="38.5" width="77" height="38.5"/>
+                                                                        <rect key="frame" x="0.0" y="54.5" width="109" height="55"/>
                                                                         <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="20"/>
                                                                         <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -259,22 +296,22 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BmN-En-Ds8">
-                                                <rect key="frame" x="194" y="0.0" width="87" height="87"/>
+                                                <rect key="frame" x="129.5" y="0.0" width="119" height="119.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IoI-G6-7X1">
-                                                        <rect key="frame" x="0.0" y="0.0" width="87" height="87"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="119" height="119.5"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="H7x-ya-t5y">
-                                                                <rect key="frame" x="5" y="5" width="77" height="77"/>
+                                                                <rect key="frame" x="5" y="5" width="109" height="109.5"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RECOVERED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="R6Y-xq-Az8">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="77" height="38.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="109" height="54.5"/>
                                                                         <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="12"/>
                                                                         <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="3Us-uG-BeU">
-                                                                        <rect key="frame" x="0.0" y="38.5" width="77" height="38.5"/>
+                                                                        <rect key="frame" x="0.0" y="54.5" width="109" height="55"/>
                                                                         <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="20"/>
                                                                         <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                         <nil key="highlightedColor"/>
@@ -320,22 +357,22 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5O-cg-nlO">
-                                                <rect key="frame" x="291" y="0.0" width="87" height="87"/>
+                                                <rect key="frame" x="258.5" y="0.0" width="119.5" height="119.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mau-fn-Bdj">
-                                                        <rect key="frame" x="0.0" y="0.0" width="87" height="87"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="119.5" height="119.5"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Cws-6V-9Tq">
-                                                                <rect key="frame" x="5" y="5" width="77" height="77"/>
+                                                                <rect key="frame" x="5" y="5" width="109.5" height="109.5"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DECEASED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="ofZ-dR-uwy">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="77" height="38.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="109.5" height="54.5"/>
                                                                         <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="12"/>
                                                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="wuu-a7-m9h">
-                                                                        <rect key="frame" x="0.0" y="38.5" width="77" height="38.5"/>
+                                                                        <rect key="frame" x="0.0" y="54.5" width="109.5" height="55"/>
                                                                         <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="20"/>
                                                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -388,13 +425,13 @@
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fzj-VZ-Y09">
-                                        <rect key="frame" x="0.0" y="97" width="378" height="27"/>
+                                        <rect key="frame" x="0.0" y="129.5" width="378" height="27"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins SemiBold" pointSize="19"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fd8-Af-suG">
-                                        <rect key="frame" x="0.0" y="134" width="378" height="87"/>
+                                        <rect key="frame" x="0.0" y="166.5" width="378" height="87"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="agX-Kq-6T0">
                                                 <rect key="frame" x="0.0" y="0.0" width="87" height="87"/>
@@ -649,18 +686,35 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43r-fs-I0P">
+                                <rect key="frame" x="0.0" y="477.5" width="414" height="315.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="1CF-wE-OMc">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="74t-Vm-p6M" firstAttribute="trailing" secondItem="2n0-JF-x0d" secondAttribute="trailing" constant="18" id="2aT-95-5s0"/>
                             <constraint firstItem="74t-Vm-p6M" firstAttribute="trailing" secondItem="XOa-IU-a7M" secondAttribute="trailing" id="4bp-7l-uur"/>
-                            <constraint firstItem="2n0-JF-x0d" firstAttribute="top" secondItem="Ngt-KV-cOF" secondAttribute="bottom" constant="15" id="FiM-Yo-yIz"/>
+                            <constraint firstItem="cSG-zA-WP2" firstAttribute="top" secondItem="Ngt-KV-cOF" secondAttribute="bottom" constant="5" id="6pY-cn-eAa"/>
+                            <constraint firstItem="2n0-JF-x0d" firstAttribute="top" secondItem="cSG-zA-WP2" secondAttribute="bottom" constant="5" id="77c-DZ-9ym"/>
+                            <constraint firstItem="cSG-zA-WP2" firstAttribute="trailing" secondItem="Ngt-KV-cOF" secondAttribute="trailing" id="HLN-Nv-b5L"/>
                             <constraint firstItem="74t-Vm-p6M" firstAttribute="bottom" secondItem="XOa-IU-a7M" secondAttribute="bottom" constant="20" id="JQd-Hh-AJI"/>
                             <constraint firstItem="XOa-IU-a7M" firstAttribute="top" relation="greaterThanOrEqual" secondItem="2n0-JF-x0d" secondAttribute="bottom" constant="10" id="LCz-iZ-AIf"/>
                             <constraint firstItem="2n0-JF-x0d" firstAttribute="leading" secondItem="74t-Vm-p6M" secondAttribute="leading" constant="18" id="N4T-a5-ibi"/>
+                            <constraint firstItem="74t-Vm-p6M" firstAttribute="bottom" secondItem="43r-fs-I0P" secondAttribute="bottom" constant="20" id="NL8-iA-hAF"/>
+                            <constraint firstItem="43r-fs-I0P" firstAttribute="top" secondItem="2n0-JF-x0d" secondAttribute="bottom" constant="20" id="Pyd-F2-faI"/>
                             <constraint firstItem="XOa-IU-a7M" firstAttribute="leading" secondItem="74t-Vm-p6M" secondAttribute="leading" id="TYG-TH-ag3"/>
                             <constraint firstItem="74t-Vm-p6M" firstAttribute="trailing" secondItem="Ngt-KV-cOF" secondAttribute="trailing" constant="20" id="ZBF-Oa-z56"/>
                             <constraint firstItem="Ngt-KV-cOF" firstAttribute="top" secondItem="74t-Vm-p6M" secondAttribute="top" constant="5" id="bh7-nM-zav"/>
+                            <constraint firstItem="74t-Vm-p6M" firstAttribute="trailing" secondItem="43r-fs-I0P" secondAttribute="trailing" id="nlK-JY-Z2B"/>
+                            <constraint firstItem="43r-fs-I0P" firstAttribute="leading" secondItem="74t-Vm-p6M" secondAttribute="leading" id="uOU-60-3Nr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="74t-Vm-p6M"/>
                     </view>
@@ -668,6 +722,8 @@
                     <connections>
                         <outlet property="activeCasesForDate" destination="yfs-Lr-C3C" id="6eK-rt-J9z"/>
                         <outlet property="casesForDate" destination="IGc-9i-Ajj" id="rIR-XP-nnt"/>
+                        <outlet property="collectionView" destination="43r-fs-I0P" id="JCc-eB-8Fb"/>
+                        <outlet property="collectionViewFlowLayout" destination="1CF-wE-OMc" id="Jxq-hj-Cd1"/>
                         <outlet property="confirmedCasesForDate" destination="1Oy-kC-OQ7" id="jaL-pk-1Eh"/>
                         <outlet property="deceasedCasesForDate" destination="wuu-a7-m9h" id="VDC-pI-6Am"/>
                         <outlet property="recoveredCasesForDate" destination="3Us-uG-BeU" id="aCk-gC-Uih"/>
@@ -675,36 +731,68 @@
                         <outlet property="totalConfirmedCases" destination="P7w-28-ZRu" id="wcc-tV-OUA"/>
                         <outlet property="totalDeceasedCases" destination="l8P-Jh-Vyl" id="jbT-6m-DV1"/>
                         <outlet property="totalRecoveredCases" destination="Lfj-gJ-Lnz" id="a80-FK-gBR"/>
+                        <outlet property="updatedText" destination="cSG-zA-WP2" id="Hdf-oY-vCw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pR6-aQ-VRi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="934.78260869565224" y="75.669642857142847"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Custom Tab Bar View Controller-->
         <scene sceneID="BuY-uQ-MMk">
             <objects>
-                <tabBarController id="ZV8-fJ-mUQ" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qb9-Jx-og1">
+                <tabBarController storyboardIdentifier="HomeTabBar" id="ZV8-fJ-mUQ" customClass="SSCustomTabBarViewController" customModule="SSCustomTabbar" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" itemPositioning="fill" id="qb9-Jx-og1" customClass="SSCustomTabBar" customModule="SSCustomTabbar">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="selectedImageTintColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="layerFillColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedTabTintColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="waveHeight">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="barHeight">
+                            <real key="value" value="35"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="upAnimationPoint">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
-                        <segue destination="eO9-ah-f95" kind="relationship" relationship="viewControllers" id="IV0-im-1Rd"/>
                         <segue destination="7nT-tC-ku1" kind="relationship" relationship="viewControllers" id="oua-qI-isf"/>
+                        <segue destination="Tvb-zg-kYt" kind="relationship" relationship="viewControllers" id="Pfa-Qi-O1k"/>
+                        <segue destination="eO9-ah-f95" kind="relationship" relationship="viewControllers" id="IV0-im-1Rd"/>
+                        <segue destination="fa6-LT-zft" kind="relationship" relationship="viewControllers" id="2wy-OC-Eic"/>
+                        <segue destination="thv-hk-OJK" kind="relationship" relationship="viewControllers" id="IMP-ie-mHB"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mmy-CZ-Apu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1100" y="76"/>
         </scene>
-        <!--Home-->
+        <!--Navigation Controller-->
         <scene sceneID="Ep5-H3-yKW">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eO9-ah-f95" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" selectedImage="house" catalog="system" id="H4X-hf-aEp"/>
+                    <tabBarItem key="tabBarItem" title="" image="home" id="H4X-hf-aEp"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="DOJ-XI-YaB">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -729,14 +817,45 @@
             </objects>
             <point key="canvasLocation" x="24.637681159420293" y="75.669642857142847"/>
         </scene>
-        <!--Updates-->
+        <!--States update-->
+        <scene sceneID="lAL-IN-nOU">
+            <objects>
+                <viewController storyboardIdentifier="StatesViewController" id="wm8-Wh-LIq" customClass="StatesViewController" customModule="HInd_Trac" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gro-NH-4Sg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7OV-oC-XCh">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7OV-oC-XCh" firstAttribute="leading" secondItem="3pD-vV-iKJ" secondAttribute="leading" id="FUt-Br-P52"/>
+                            <constraint firstItem="3pD-vV-iKJ" firstAttribute="bottom" secondItem="7OV-oC-XCh" secondAttribute="bottom" id="P3l-w2-57l"/>
+                            <constraint firstItem="3pD-vV-iKJ" firstAttribute="trailing" secondItem="7OV-oC-XCh" secondAttribute="trailing" id="cyE-mo-BKC"/>
+                            <constraint firstItem="7OV-oC-XCh" firstAttribute="top" secondItem="3pD-vV-iKJ" secondAttribute="top" id="tEK-ja-XST"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3pD-vV-iKJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="States update" id="GlH-BD-7ot"/>
+                    <connections>
+                        <outlet property="statesTableView" destination="7OV-oC-XCh" id="jL9-LQ-ifv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="28i-0O-c4F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="934.78260869565224" y="866.51785714285711"/>
+        </scene>
+        <!--Navigation Controller-->
         <scene sceneID="fht-Pe-xUI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7nT-tC-ku1" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Updates" selectedImage="house" catalog="system" id="Y5p-PX-y1a"/>
+                    <tabBarItem key="tabBarItem" title="" image="news" id="Y5p-PX-y1a"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="KCE-ic-w1R">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="KCE-ic-w1R">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
@@ -761,7 +880,7 @@
         <!--Splash View Controller-->
         <scene sceneID="HBM-y1-CCx">
             <objects>
-                <viewController storyboardIdentifier="SplashViewController" id="Ew5-4Q-RFY" customClass="SplashViewController" customModule="COViD_19_IND" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SplashViewController" id="Ew5-4Q-RFY" customClass="SplashViewController" customModule="HInd_Trac" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ubV-wx-yDt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -793,10 +912,103 @@
             </objects>
             <point key="canvasLocation" x="-2103" y="76"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Jw9-eN-Bs5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fa6-LT-zft" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="state" id="cNn-ho-zPw"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="ZCn-XM-D2D">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="textShadowColor" red="0.16078431369999999" green="0.1647058824" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="GillSans-SemiBold" family="Gill Sans" pointSize="25"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="textShadowColor" red="0.16078431369999999" green="0.1647058824" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wm8-Wh-LIq" kind="relationship" relationship="rootViewController" id="tsV-Qf-dls"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FDi-CL-1a4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.637681159420293" y="866.51785714285711"/>
+        </scene>
+        <!--Precautions-->
+        <scene sceneID="pVf-2S-3IF">
+            <objects>
+                <viewController id="sn6-kn-C0O" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eGl-gO-Q9g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="uaq-8l-NIa"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Precautions" id="Y6L-g0-uaB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TBz-nh-wo1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="934.78260869565224" y="1689.5089285714284"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="E7M-VR-hWc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tvb-zg-kYt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="list" id="XKF-xB-lag"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="69O-y7-bvg">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="moB-50-Z0S" kind="relationship" relationship="rootViewController" id="4ez-EP-z2s"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b7a-r6-xcy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="25" y="-1362"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="POc-tt-lfg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="thv-hk-OJK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="medical_ID" id="u8B-tp-WNm"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Qu0-pY-fVq">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="17"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sn6-kn-C0O" kind="relationship" relationship="rootViewController" id="0cg-id-Lby"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Se2-bF-BqY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.637681159420293" y="1689.5089285714284"/>
+        </scene>
     </scenes>
     <resources>
         <image name="chevron.down" catalog="system" width="128" height="72"/>
         <image name="flagBG" width="715" height="326"/>
-        <image name="house" catalog="system" width="128" height="110"/>
+        <image name="home" width="30" height="30"/>
+        <image name="list" width="30" height="30"/>
+        <image name="medical_ID" width="30" height="30"/>
+        <image name="news" width="30" height="30"/>
+        <image name="state" width="30" height="30"/>
     </resources>
 </document>

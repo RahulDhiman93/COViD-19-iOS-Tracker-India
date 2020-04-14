@@ -52,6 +52,19 @@
 		088E495124450F51009A1B46 /* FactoidsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E495024450F51009A1B46 /* FactoidsModel.swift */; };
 		088E495324450F99009A1B46 /* FaqModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E495224450F99009A1B46 /* FaqModel.swift */; };
 		088E49552445105D009A1B46 /* AppInfoFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E49542445105D009A1B46 /* AppInfoFiles.swift */; };
+		088E495924451AD6009A1B46 /* FactCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E495724451AD6009A1B46 /* FactCollectionViewCell.swift */; };
+		088E495A24451AD6009A1B46 /* FactCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 088E495824451AD6009A1B46 /* FactCollectionViewCell.xib */; };
+		08B433982445FB3F00894B52 /* StatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B433972445FB3F00894B52 /* StatesViewController.swift */; };
+		08B4339A2445FB4F00894B52 /* StatesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B433992445FB4F00894B52 /* StatesPresenter.swift */; };
+		08B4339C2445FB5700894B52 /* StatesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4339B2445FB5700894B52 /* StatesRouter.swift */; };
+		08B433A02445FC5500894B52 /* StatesDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4339E2445FC5500894B52 /* StatesDetailTableViewCell.swift */; };
+		08B433A12445FC5500894B52 /* StatesDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08B4339F2445FC5500894B52 /* StatesDetailTableViewCell.xib */; };
+		08B433A42446263300894B52 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B433A32446263300894B52 /* ResourcesViewController.swift */; };
+		08B433A62446264D00894B52 /* ResourcesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B433A52446264D00894B52 /* ResourcesPresenter.swift */; };
+		08B433A82446265B00894B52 /* ResourcesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B433A72446265B00894B52 /* ResourcesRouter.swift */; };
+		08B433AA2446274200894B52 /* ResourcesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B433A92446274200894B52 /* ResourcesModel.swift */; };
+		08B433AE244629F000894B52 /* ResourcesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B433AC244629F000894B52 /* ResourcesTableViewCell.swift */; };
+		08B433AF244629F000894B52 /* ResourcesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08B433AD244629F000894B52 /* ResourcesTableViewCell.xib */; };
 		08D2B36722B52A120063B14C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D2B36622B52A120063B14C /* Config.swift */; };
 		251F3AF1692075C5DF1736A9 /* Pods_covid_19_IND.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DDC101937D4B181CD09831 /* Pods_covid_19_IND.framework */; };
 		2715AC07A09F3E688B2A70DB /* Pods_covid_19_INDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E142A50F30AFCF47BEF4C56 /* Pods_covid_19_INDTests.framework */; };
@@ -211,6 +224,19 @@
 		088E495024450F51009A1B46 /* FactoidsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoidsModel.swift; sourceTree = "<group>"; };
 		088E495224450F99009A1B46 /* FaqModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqModel.swift; sourceTree = "<group>"; };
 		088E49542445105D009A1B46 /* AppInfoFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoFiles.swift; sourceTree = "<group>"; };
+		088E495724451AD6009A1B46 /* FactCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactCollectionViewCell.swift; sourceTree = "<group>"; };
+		088E495824451AD6009A1B46 /* FactCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FactCollectionViewCell.xib; sourceTree = "<group>"; };
+		08B433972445FB3F00894B52 /* StatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesViewController.swift; sourceTree = "<group>"; };
+		08B433992445FB4F00894B52 /* StatesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesPresenter.swift; sourceTree = "<group>"; };
+		08B4339B2445FB5700894B52 /* StatesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesRouter.swift; sourceTree = "<group>"; };
+		08B4339E2445FC5500894B52 /* StatesDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesDetailTableViewCell.swift; sourceTree = "<group>"; };
+		08B4339F2445FC5500894B52 /* StatesDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatesDetailTableViewCell.xib; sourceTree = "<group>"; };
+		08B433A32446263300894B52 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		08B433A52446264D00894B52 /* ResourcesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesPresenter.swift; sourceTree = "<group>"; };
+		08B433A72446265B00894B52 /* ResourcesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesRouter.swift; sourceTree = "<group>"; };
+		08B433A92446274200894B52 /* ResourcesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesModel.swift; sourceTree = "<group>"; };
+		08B433AC244629F000894B52 /* ResourcesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesTableViewCell.swift; sourceTree = "<group>"; };
+		08B433AD244629F000894B52 /* ResourcesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResourcesTableViewCell.xib; sourceTree = "<group>"; };
 		08D2B36322B527E80063B14C /* Inforu-Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Inforu-Dev.xcconfig"; sourceTree = "<group>"; };
 		08D2B36422B527F90063B14C /* Inforu-Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Inforu-Test.xcconfig"; sourceTree = "<group>"; };
 		08D2B36522B528050063B14C /* Inforu-Live.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Inforu-Live.xcconfig"; sourceTree = "<group>"; };
@@ -252,7 +278,7 @@
 		E29158A116052CCBE976BF23 /* Pods-covid-19-IND.live.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covid-19-IND.live.xcconfig"; path = "Pods/Target Support Files/Pods-covid-19-IND/Pods-covid-19-IND.live.xcconfig"; sourceTree = "<group>"; };
 		E78BE5BF811A159CA4929A16 /* Pods-CL-Base-MVPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CL-Base-MVPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CL-Base-MVPTests/Pods-CL-Base-MVPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC43B179FE4B3893D5A25A6D /* Pods-InforuUITests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InforuUITests.test.xcconfig"; path = "Pods/Target Support Files/Pods-InforuUITests/Pods-InforuUITests.test.xcconfig"; sourceTree = "<group>"; };
-		F46045291FCC2EEA00DC976D /* COViD-19 IND.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COViD-19 IND.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46045291FCC2EEA00DC976D /* HInd Trac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HInd Trac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46045331FCC2EEA00DC976D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46045381FCC2EEA00DC976D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F460453D1FCC2EEA00DC976D /* covid-19-INDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "covid-19-INDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -418,19 +444,11 @@
 		0846A59A2444A99000D8BD91 /* HomeFlow */ = {
 			isa = PBXGroup;
 			children = (
-				0846A59B2444A99700D8BD91 /* HomeVC */,
-			);
-			path = HomeFlow;
-			sourceTree = "<group>";
-		};
-		0846A59B2444A99700D8BD91 /* HomeVC */ = {
-			isa = PBXGroup;
-			children = (
 				0846A59C2444A9AA00D8BD91 /* HomeViewController.swift */,
 				0846A59E2444A9B800D8BD91 /* HomePresenter.swift */,
 				0846A5A02444A9C400D8BD91 /* HomeRouter.swift */,
 			);
-			path = HomeVC;
+			path = HomeFlow;
 			sourceTree = "<group>";
 		};
 		0846A5A22444AA5B00D8BD91 /* ErrorView */ = {
@@ -462,19 +480,11 @@
 		0846A5B52444C41400D8BD91 /* UpdateFlow */ = {
 			isa = PBXGroup;
 			children = (
-				0846A5B62444C41B00D8BD91 /* UpdatesViewController */,
-			);
-			path = UpdateFlow;
-			sourceTree = "<group>";
-		};
-		0846A5B62444C41B00D8BD91 /* UpdatesViewController */ = {
-			isa = PBXGroup;
-			children = (
 				0846A5B72444C43000D8BD91 /* UpdatesViewController.swift */,
 				0846A5B92444C44800D8BD91 /* UpdatesPresenter.swift */,
 				0846A5BB2444C45600D8BD91 /* UpdatesRouter.swift */,
 			);
-			path = UpdatesViewController;
+			path = UpdateFlow;
 			sourceTree = "<group>";
 		};
 		0846A5BD2444C67300D8BD91 /* UpdatesVC */ = {
@@ -484,6 +494,53 @@
 				0846A5BF2444C68B00D8BD91 /* TextViewTableViewCell.xib */,
 			);
 			path = UpdatesVC;
+			sourceTree = "<group>";
+		};
+		088E495624451AB3009A1B46 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				088E495724451AD6009A1B46 /* FactCollectionViewCell.swift */,
+				088E495824451AD6009A1B46 /* FactCollectionViewCell.xib */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		08B433962445FB2400894B52 /* StatesFlow */ = {
+			isa = PBXGroup;
+			children = (
+				08B433972445FB3F00894B52 /* StatesViewController.swift */,
+				08B433992445FB4F00894B52 /* StatesPresenter.swift */,
+				08B4339B2445FB5700894B52 /* StatesRouter.swift */,
+			);
+			path = StatesFlow;
+			sourceTree = "<group>";
+		};
+		08B4339D2445FC3600894B52 /* StateVC */ = {
+			isa = PBXGroup;
+			children = (
+				08B4339E2445FC5500894B52 /* StatesDetailTableViewCell.swift */,
+				08B4339F2445FC5500894B52 /* StatesDetailTableViewCell.xib */,
+			);
+			path = StateVC;
+			sourceTree = "<group>";
+		};
+		08B433A22446260D00894B52 /* ResourceFlow */ = {
+			isa = PBXGroup;
+			children = (
+				08B433A32446263300894B52 /* ResourcesViewController.swift */,
+				08B433A52446264D00894B52 /* ResourcesPresenter.swift */,
+				08B433A72446265B00894B52 /* ResourcesRouter.swift */,
+			);
+			path = ResourceFlow;
+			sourceTree = "<group>";
+		};
+		08B433AB244629DF00894B52 /* ResourcesVC */ = {
+			isa = PBXGroup;
+			children = (
+				08B433AC244629F000894B52 /* ResourcesTableViewCell.swift */,
+				08B433AD244629F000894B52 /* ResourcesTableViewCell.xib */,
+			);
+			path = ResourcesVC;
 			sourceTree = "<group>";
 		};
 		08D2B36222B527DA0063B14C /* Config */ = {
@@ -567,7 +624,7 @@
 		F460452A1FCC2EEA00DC976D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F46045291FCC2EEA00DC976D /* COViD-19 IND.app */,
+				F46045291FCC2EEA00DC976D /* HInd Trac.app */,
 				F460453D1FCC2EEA00DC976D /* covid-19-INDTests.xctest */,
 				F46045481FCC2EEA00DC976D /* covid-19-INDUITests.xctest */,
 			);
@@ -627,6 +684,8 @@
 		F460455C1FCC30D700DC976D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				08B433A22446260D00894B52 /* ResourceFlow */,
+				08B433962445FB2400894B52 /* StatesFlow */,
 				0846A5B52444C41400D8BD91 /* UpdateFlow */,
 				0846A59A2444A99000D8BD91 /* HomeFlow */,
 				0846A5982444A98700D8BD91 /* Protocol.swift */,
@@ -638,7 +697,10 @@
 		F460455E1FCC30DE00DC976D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				08B433AB244629DF00894B52 /* ResourcesVC */,
+				08B4339D2445FC3600894B52 /* StateVC */,
 				0846A5BD2444C67300D8BD91 /* UpdatesVC */,
+				088E495624451AB3009A1B46 /* HomeVC */,
 				0846A5A22444AA5B00D8BD91 /* ErrorView */,
 				0846A5A72444AA6600D8BD91 /* CustomAlert */,
 			);
@@ -655,6 +717,7 @@
 				088E495024450F51009A1B46 /* FactoidsModel.swift */,
 				088E495224450F99009A1B46 /* FaqModel.swift */,
 				088E49542445105D009A1B46 /* AppInfoFiles.swift */,
+				08B433A92446274200894B52 /* ResourcesModel.swift */,
 				F46045681FCC32A200DC976D /* User.swift */,
 				F46045631FCC322500DC976D /* Human.swift */,
 				F46045641FCC325200DC976D /* Me.swift */,
@@ -977,7 +1040,7 @@
 			);
 			name = "covid-19-IND";
 			productName = "CL-Base-MVP";
-			productReference = F46045291FCC2EEA00DC976D /* COViD-19 IND.app */;
+			productReference = F46045291FCC2EEA00DC976D /* HInd Trac.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F460453C1FCC2EEA00DC976D /* covid-19-INDTests */ = {
@@ -1079,7 +1142,9 @@
 				F4975A6A1FCEA04400B8BB6C /* Images.xcassets in Resources */,
 				0846A5862444981B00D8BD91 /* Poppins-ExtraLight.ttf in Resources */,
 				0846A5AB2444AA6600D8BD91 /* AlertWithOptionsViewController.xib in Resources */,
+				08B433A12445FC5500894B52 /* StatesDetailTableViewCell.xib in Resources */,
 				0846A5932444981B00D8BD91 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				08B433AF244629F000894B52 /* ResourcesTableViewCell.xib in Resources */,
 				0846A58F2444981B00D8BD91 /* Poppins-Black.ttf in Resources */,
 				0846A5972444981B00D8BD91 /* OFL.txt in Resources */,
 				0846A58A2444981B00D8BD91 /* Poppins-SemiBold.ttf in Resources */,
@@ -1096,6 +1161,7 @@
 				0846A54A2444979500D8BD91 /* Home.storyboard in Resources */,
 				0846A5962444981B00D8BD91 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				0846A5922444981B00D8BD91 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				088E495A24451AD6009A1B46 /* FactCollectionViewCell.xib in Resources */,
 				0846A5902444981B00D8BD91 /* Poppins-ThinItalic.ttf in Resources */,
 				0846A5952444981B00D8BD91 /* Poppins-Medium.ttf in Resources */,
 				0846A5A52444AA5C00D8BD91 /* ErrorView.xib in Resources */,
@@ -1231,6 +1297,7 @@
 				"${BUILT_PRODUCTS_DIR}/LinearProgressBarMaterial/LinearProgressBarMaterial.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SSCustomTabbar/SSCustomTabbar.framework",
 				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
 				"${BUILT_PRODUCTS_DIR}/UIGradient/UIGradient.framework",
 			);
@@ -1248,6 +1315,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinearProgressBarMaterial.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSCustomTabbar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIGradient.framework",
 			);
@@ -1293,6 +1361,7 @@
 				"${BUILT_PRODUCTS_DIR}/LinearProgressBarMaterial/LinearProgressBarMaterial.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SSCustomTabbar/SSCustomTabbar.framework",
 				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
 				"${BUILT_PRODUCTS_DIR}/UIGradient/UIGradient.framework",
 			);
@@ -1310,6 +1379,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinearProgressBarMaterial.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSCustomTabbar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIGradient.framework",
 			);
@@ -1325,10 +1395,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B4339A2445FB4F00894B52 /* StatesPresenter.swift in Sources */,
 				F4975A461FCEA01200B8BB6C /* CaseValidationPattern.swift in Sources */,
+				08B433AE244629F000894B52 /* ResourcesTableViewCell.swift in Sources */,
 				0846A5B42444B2A600D8BD91 /* CaseTimeSeriesModel.swift in Sources */,
 				F4975A0C1FCE9E3C00B8BB6C /* HTTPStatusCodes+Extensions.swift in Sources */,
+				08B433A62446264D00894B52 /* ResourcesPresenter.swift in Sources */,
 				F4975A521FCEA01700B8BB6C /* ValidationRulePattern.swift in Sources */,
+				088E495924451AD6009A1B46 /* FactCollectionViewCell.swift in Sources */,
 				0846A5C32444C97500D8BD91 /* UpdatesModel.swift in Sources */,
 				F49759DD1FCE8FC700B8BB6C /* CustomError.swift in Sources */,
 				F4975A541FCEA01700B8BB6C /* ValidationRuleRequired.swift in Sources */,
@@ -1353,6 +1427,7 @@
 				F4975A101FCE9E4300B8BB6C /* PersistentStoreLocation.swift in Sources */,
 				F49759CA1FCE8E0000B8BB6C /* CLCollection+Extension.swift in Sources */,
 				0846A5B22444B21100D8BD91 /* TestedCasesModel.swift in Sources */,
+				08B433982445FB3F00894B52 /* StatesViewController.swift in Sources */,
 				F4975A111FCE9E5000B8BB6C /* LogsConstant.swift in Sources */,
 				F4975A131FCE9E5300B8BB6C /* Network.swift in Sources */,
 				F4975A071FCE9E3900B8BB6C /* CLTextField.swift in Sources */,
@@ -1361,10 +1436,13 @@
 				0846A59F2444A9B800D8BD91 /* HomePresenter.swift in Sources */,
 				F4975A091FCE9E3900B8BB6C /* CLValidatorManager.swift in Sources */,
 				F4975A081FCE9E3900B8BB6C /* CLValidationRules.swift in Sources */,
+				08B4339C2445FB5700894B52 /* StatesRouter.swift in Sources */,
 				F4975A5A1FCEA01D00B8BB6C /* ValidationRuleSet.swift in Sources */,
 				0846A5992444A98700D8BD91 /* Protocol.swift in Sources */,
 				0846A5AA2444AA6600D8BD91 /* AlertWithOptionsViewController.swift in Sources */,
 				08D2B36722B52A120063B14C /* Config.swift in Sources */,
+				08B433A02445FC5500894B52 /* StatesDetailTableViewCell.swift in Sources */,
+				08B433A42446263300894B52 /* ResourcesViewController.swift in Sources */,
 				F49759C81FCE8E0000B8BB6C /* CLAPP+EnvConfig.swift in Sources */,
 				F4975A0E1FCE9E4300B8BB6C /* LocationBackgroundTaskManager.swift in Sources */,
 				0846A5C02444C68B00D8BD91 /* TextViewTableViewCell.swift in Sources */,
@@ -1405,6 +1483,7 @@
 				0846A5BA2444C44800D8BD91 /* UpdatesPresenter.swift in Sources */,
 				F49759E61FCE908A00B8BB6C /* Personable.swift in Sources */,
 				0846A5B82444C43000D8BD91 /* UpdatesViewController.swift in Sources */,
+				08B433AA2446274200894B52 /* ResourcesModel.swift in Sources */,
 				F49759D21FCE8E0000B8BB6C /* String+Extention.swift in Sources */,
 				F4975A691FCEA04400B8BB6C /* CountryManager.swift in Sources */,
 				F4975A681FCEA04400B8BB6C /* Country.swift in Sources */,
@@ -1424,6 +1503,7 @@
 				F4975A5F1FCEA03100B8BB6C /* MenuBarView.swift in Sources */,
 				F4975A651FCEA04400B8BB6C /* CLCountryPickerController.swift in Sources */,
 				F497599D1FCE859500B8BB6C /* SwiftConstants.swift in Sources */,
+				08B433A82446265B00894B52 /* ResourcesRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1548,7 +1628,7 @@
 					"\"${PODS_ROOT}/GooglePlaces/Frameworks\"",
 				);
 				INFOPLIST_FILE = "CL-Base-MVP/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-lc++",
@@ -1620,9 +1700,9 @@
 					"\"UIKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.covid19.ind;
-				PRODUCT_NAME = "COViD-19 IND";
+				PRODUCT_NAME = "HInd Trac";
 				PROVISIONING_PROFILE = "70e8cf61-ec94-4d3b-b689-1bb0fa28f7eb";
-				PROVISIONING_PROFILE_SPECIFIER = "Inforu-Pro-Dev";
+				PROVISIONING_PROFILE_SPECIFIER = HindTrac_Dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "CL-Base-MVP/Model/CL-Base-MVP-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1726,7 +1806,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = BM93ACT257;
 				INFOPLIST_FILE = "CL-Base-MVP/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-lc++",
@@ -1798,9 +1878,9 @@
 					"\"UIKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.covid19.ind;
-				PRODUCT_NAME = "COViD-19 IND";
+				PRODUCT_NAME = "HInd Trac";
 				PROVISIONING_PROFILE = "c9f46191-0201-4194-9bbd-24c9e703c21b";
-				PROVISIONING_PROFILE_SPECIFIER = "Inforu-Pro-Appstore";
+				PROVISIONING_PROFILE_SPECIFIER = HindTrac_Appstore;
 				SWIFT_OBJC_BRIDGING_HEADER = "CL-Base-MVP/Model/CL-Base-MVP-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1903,7 +1983,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = BM93ACT257;
 				INFOPLIST_FILE = "CL-Base-MVP/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-lc++",
@@ -1975,9 +2055,9 @@
 					"\"UIKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.covid19.ind;
-				PRODUCT_NAME = "COViD-19 IND";
+				PRODUCT_NAME = "HInd Trac";
 				PROVISIONING_PROFILE = "c9f46191-0201-4194-9bbd-24c9e703c21b";
-				PROVISIONING_PROFILE_SPECIFIER = "Inforu-Pro-Appstore";
+				PROVISIONING_PROFILE_SPECIFIER = HindTrac_Appstore;
 				SWIFT_OBJC_BRIDGING_HEADER = "CL-Base-MVP/Model/CL-Base-MVP-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2156,7 +2236,7 @@
 					"\"${PODS_ROOT}/GooglePlaces/Frameworks\"",
 				);
 				INFOPLIST_FILE = "CL-Base-MVP/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-lc++",
@@ -2228,9 +2308,9 @@
 					"\"UIKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.covid19.ind;
-				PRODUCT_NAME = "COViD-19 IND";
+				PRODUCT_NAME = "HInd Trac";
 				PROVISIONING_PROFILE = "70e8cf61-ec94-4d3b-b689-1bb0fa28f7eb";
-				PROVISIONING_PROFILE_SPECIFIER = "Inforu-Pro-Dev";
+				PROVISIONING_PROFILE_SPECIFIER = HindTrac_Dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "CL-Base-MVP/Model/CL-Base-MVP-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -2248,7 +2328,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = BM93ACT257;
 				INFOPLIST_FILE = "CL-Base-MVP/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-lc++",
@@ -2320,9 +2400,9 @@
 					"\"UIKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.covid19.ind;
-				PRODUCT_NAME = "COViD-19 IND";
+				PRODUCT_NAME = "HInd Trac";
 				PROVISIONING_PROFILE = "c9f46191-0201-4194-9bbd-24c9e703c21b";
-				PROVISIONING_PROFILE_SPECIFIER = "Inforu-Pro-Appstore";
+				PROVISIONING_PROFILE_SPECIFIER = HindTrac_Appstore;
 				SWIFT_OBJC_BRIDGING_HEADER = "CL-Base-MVP/Model/CL-Base-MVP-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -10,41 +10,41 @@ import UIKit
 
 class StateWiseDataModel: NSObject {
 
-    var active = 0
-    var confirmed = 0
-    var deaths = 0
-    var deltaConfirmed = 0
-    var deltaDeaths = 0
-    var deltaRecovered = 0
+    var active = ""
+    var confirmed = ""
+    var deaths = ""
+    var deltaConfirmed = ""
+    var deltaDeaths = ""
+    var deltaRecovered = ""
     var lastUpdatedTime = ""
-    var recovered = 0
+    var recovered = ""
     var state = ""
     var stateCode = ""
     var stateNotes = ""
     
     init(json : [String : Any]) {
         
-        if let value = json["active"] as? Int {
+        if let value = json["active"] as? String {
             self.active = value
         }
         
-        if let value = json["confirmed"] as? Int {
+        if let value = json["confirmed"] as? String {
             self.confirmed = value
         }
         
-        if let value = json["deaths"] as? Int {
+        if let value = json["deaths"] as? String {
             self.deaths = value
         }
         
-        if let value = json["deltaconfirmed"] as? Int {
+        if let value = json["deltaconfirmed"] as? String {
             self.deltaConfirmed = value
         }
         
-        if let value = json["deltadeaths"] as? Int {
+        if let value = json["deltadeaths"] as? String {
             self.deltaDeaths = value
         }
         
-        if let value = json["deltarecovered"] as? Int {
+        if let value = json["deltarecovered"] as? String {
             self.deltaRecovered = value
         }
         
@@ -52,7 +52,7 @@ class StateWiseDataModel: NSObject {
             self.lastUpdatedTime = value
         }
         
-        if let value = json["recovered"] as? Int {
+        if let value = json["recovered"] as? String {
             self.recovered = value
         }
         

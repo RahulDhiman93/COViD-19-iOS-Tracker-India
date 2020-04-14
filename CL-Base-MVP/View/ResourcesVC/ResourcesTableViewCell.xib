@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+        <array key="Poppins-Italic.ttf">
+            <string>Poppins-Italic</string>
+        </array>
+        <array key="Poppins-Light.ttf">
+            <string>Poppins-Light</string>
+        </array>
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ResourcesTableViewCell" rowHeight="200" id="KGk-i7-Jjw" customClass="ResourcesTableViewCell" customModule="HInd_Trac" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0g8-zT-Qy3">
+                        <rect key="frame" x="10" y="10" width="300" height="180"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NGO Name" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TNJ-aZ-0Ku">
+                                <rect key="frame" x="10" y="10" width="280" height="24"/>
+                                <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State plus city" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thm-DI-EKw">
+                                <rect key="frame" x="10" y="39" width="280" height="21"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Source:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHO-Jd-eAS">
+                                <rect key="frame" x="10" y="70" width="45" height="25.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins Medium" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YVs-S4-iLR">
+                                <rect key="frame" x="10" y="100.5" width="55" height="15.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins Medium" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OzV-Ej-1HF">
+                                <rect key="frame" x="10" y="121" width="37.5" height="15.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins Medium" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8a2-gk-d4i">
+                                <rect key="frame" x="60" y="70" width="30" height="25.5"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Link">
+                                            <attributes>
+                                                <font key="NSFont" size="12" name="GillSans-Italic"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                <integer key="NSUnderline" value="1"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="linkTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="bE3-uZ-ri9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsy-10-TMO">
+                                <rect key="frame" x="70" y="99" width="32" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins Light" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+91" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjo-I5-rAh">
+                                <rect key="frame" x="52.5" y="119.5" width="19" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-Light" family="Poppins Light" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UIT-6K-Pnv">
+                                <rect key="frame" x="10" y="146.5" width="280" height="17"/>
+                                <fontDescription key="fontDescription" name="Poppins-Italic" family="Poppins" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="YVs-S4-iLR" firstAttribute="leading" secondItem="0g8-zT-Qy3" secondAttribute="leading" constant="10" id="0Si-uQ-qI5"/>
+                            <constraint firstItem="TNJ-aZ-0Ku" firstAttribute="top" secondItem="0g8-zT-Qy3" secondAttribute="top" constant="10" id="1PF-Nk-uRY"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="qjo-I5-rAh" secondAttribute="trailing" constant="10" id="1WO-9Z-4Td"/>
+                            <constraint firstAttribute="trailing" secondItem="UIT-6K-Pnv" secondAttribute="trailing" constant="10" id="2D9-f1-ajN"/>
+                            <constraint firstItem="qjo-I5-rAh" firstAttribute="leading" secondItem="OzV-Ej-1HF" secondAttribute="trailing" constant="5" id="D1G-8H-NHv"/>
+                            <constraint firstItem="8a2-gk-d4i" firstAttribute="bottom" secondItem="oHO-Jd-eAS" secondAttribute="bottom" id="EEt-zM-8Ie"/>
+                            <constraint firstItem="oHO-Jd-eAS" firstAttribute="leading" secondItem="0g8-zT-Qy3" secondAttribute="leading" constant="10" id="EeH-5O-xSi"/>
+                            <constraint firstItem="OzV-Ej-1HF" firstAttribute="top" secondItem="YVs-S4-iLR" secondAttribute="bottom" constant="5" id="Fxw-J5-9aH"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8a2-gk-d4i" secondAttribute="trailing" constant="10" id="G4r-M5-k1l"/>
+                            <constraint firstItem="bsy-10-TMO" firstAttribute="leading" secondItem="YVs-S4-iLR" secondAttribute="trailing" constant="5" id="HVF-9C-YV6"/>
+                            <constraint firstItem="qjo-I5-rAh" firstAttribute="centerY" secondItem="OzV-Ej-1HF" secondAttribute="centerY" id="Jwz-gk-O9u"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="UIT-6K-Pnv" secondAttribute="bottom" constant="10" id="KpO-8R-xIU"/>
+                            <constraint firstAttribute="trailing" secondItem="thm-DI-EKw" secondAttribute="trailing" constant="10" id="M49-rY-fIw"/>
+                            <constraint firstItem="UIT-6K-Pnv" firstAttribute="leading" secondItem="0g8-zT-Qy3" secondAttribute="leading" constant="10" id="MX5-I3-cEU"/>
+                            <constraint firstItem="YVs-S4-iLR" firstAttribute="top" secondItem="oHO-Jd-eAS" secondAttribute="bottom" constant="5" id="ThF-Vv-exU"/>
+                            <constraint firstItem="UIT-6K-Pnv" firstAttribute="top" secondItem="OzV-Ej-1HF" secondAttribute="bottom" constant="10" id="UVt-Df-aWX"/>
+                            <constraint firstItem="thm-DI-EKw" firstAttribute="leading" secondItem="0g8-zT-Qy3" secondAttribute="leading" constant="10" id="Y1d-IO-Zef"/>
+                            <constraint firstItem="OzV-Ej-1HF" firstAttribute="leading" secondItem="0g8-zT-Qy3" secondAttribute="leading" constant="10" id="ZnJ-yU-fok"/>
+                            <constraint firstAttribute="trailing" secondItem="TNJ-aZ-0Ku" secondAttribute="trailing" constant="10" id="bQ4-K6-weZ"/>
+                            <constraint firstItem="8a2-gk-d4i" firstAttribute="centerY" secondItem="oHO-Jd-eAS" secondAttribute="centerY" id="iHu-gk-Mxh"/>
+                            <constraint firstItem="thm-DI-EKw" firstAttribute="top" secondItem="TNJ-aZ-0Ku" secondAttribute="bottom" constant="5" id="mzr-Qy-dgb"/>
+                            <constraint firstItem="bsy-10-TMO" firstAttribute="centerY" secondItem="YVs-S4-iLR" secondAttribute="centerY" id="pFx-CX-lzz"/>
+                            <constraint firstItem="8a2-gk-d4i" firstAttribute="top" secondItem="oHO-Jd-eAS" secondAttribute="top" id="rR9-ig-9FR"/>
+                            <constraint firstItem="8a2-gk-d4i" firstAttribute="leading" secondItem="oHO-Jd-eAS" secondAttribute="trailing" constant="5" id="rdI-aX-pxi"/>
+                            <constraint firstItem="TNJ-aZ-0Ku" firstAttribute="leading" secondItem="0g8-zT-Qy3" secondAttribute="leading" constant="10" id="uBB-oc-VlG"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bsy-10-TMO" secondAttribute="trailing" constant="10" id="xYZ-7N-6Uu"/>
+                            <constraint firstItem="oHO-Jd-eAS" firstAttribute="top" secondItem="thm-DI-EKw" secondAttribute="bottom" constant="10" id="ydZ-nl-Co2"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="0g8-zT-Qy3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="3jX-dr-ufs"/>
+                    <constraint firstAttribute="bottom" secondItem="0g8-zT-Qy3" secondAttribute="bottom" constant="10" id="8Ef-wi-Ww0"/>
+                    <constraint firstItem="0g8-zT-Qy3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="9CC-YG-n7V"/>
+                    <constraint firstAttribute="trailing" secondItem="0g8-zT-Qy3" secondAttribute="trailing" constant="10" id="P1n-gj-kod"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="category" destination="bsy-10-TMO" id="gBc-9r-BW2"/>
+                <outlet property="contactLink" destination="8a2-gk-d4i" id="dxc-di-zhW"/>
+                <outlet property="ngoName" destination="TNJ-aZ-0Ku" id="UA1-UJ-BsZ"/>
+                <outlet property="phone" destination="qjo-I5-rAh" id="hrp-uh-sNs"/>
+                <outlet property="resDescription" destination="UIT-6K-Pnv" id="Qem-fk-ANH"/>
+                <outlet property="stateAndCity" destination="thm-DI-EKw" id="19K-Qw-Trr"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="153.34821428571428"/>
+        </tableViewCell>
+    </objects>
+</document>

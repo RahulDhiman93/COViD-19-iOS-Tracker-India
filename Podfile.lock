@@ -38,6 +38,7 @@ PODS:
   - MBProgressHUD (1.2.0)
   - ReachabilitySwift (5.0.0)
   - SkeletonView (1.8.7)
+  - SSCustomTabbar (2.0.6)
   - UIGradient (1.3.1)
 
 DEPENDENCIES:
@@ -58,6 +59,7 @@ DEPENDENCIES:
   - MBProgressHUD
   - ReachabilitySwift
   - SkeletonView
+  - SSCustomTabbar
   - UIGradient
 
 SPEC REPOS:
@@ -79,6 +81,7 @@ SPEC REPOS:
     - MBProgressHUD
     - ReachabilitySwift
     - SkeletonView
+    - SSCustomTabbar
     - UIGradient
 
 SPEC CHECKSUMS:
@@ -99,8 +102,9 @@ SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   SkeletonView: ba5370f41280b2f0a76918bb143c1294232bb4f4
+  SSCustomTabbar: a52533e429bd40f52ce8d7ecb801f3521fbd56a0
   UIGradient: 9c7041327bf202b09aab2db7c33fb41f768b19ea
 
-PODFILE CHECKSUM: a4ccdda7f7b5ca60f96541dd79b9ef4ae8740529
+PODFILE CHECKSUM: f694fffc47eedd7ba2d00b4f5573772e3493eef6
 
 COCOAPODS: 1.9.0

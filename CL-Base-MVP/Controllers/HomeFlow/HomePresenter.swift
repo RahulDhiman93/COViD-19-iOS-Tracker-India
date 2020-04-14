@@ -17,6 +17,7 @@ class HomePresenter {
     
     var caseTimeSeriesData = [CaseTimeSeriesModel]()
     var selectedCaseData : CaseTimeSeriesModel?
+    var stateWiseTotal : StateWiseDataModel?
     
     weak var view  : HomePresenterDelegate?
     init(view: HomePresenterDelegate) {
@@ -38,10 +39,28 @@ class HomePresenter {
                 return
             }
             
+            guard let stateWiseJsonArray = response["statewise"] as? [[String : Any]], stateWiseJsonArray.count > 0  else {
+                self?.view?.failure(message:  error?.localizedDescription ?? "Server Error, Please try again!")
+                return
+            }
+            
+            let stateWiseTotal = StateWiseDataModel(json: stateWiseJsonArray[0])
+            self?.stateWiseTotal = stateWiseTotal
+            let dailyJson : [String : Any] = [
+                "dailyconfirmed" : stateWiseTotal.deltaConfirmed,
+                "dailyrecovered" : stateWiseTotal.deltaRecovered,
+                "dailydeceased" : stateWiseTotal.deltaDeaths,
+                "date" : stateWiseTotal.lastUpdatedTime,
+                "totalconfirmed" : stateWiseTotal.confirmed,
+                "totalrecovered" : stateWiseTotal.recovered,
+                "totaldeceased" : stateWiseTotal.deaths
+            ]
+            
             self?.caseTimeSeriesData.removeAll()
             for caseSeries in caseTimeSeriesJsonArray {
                 self?.caseTimeSeriesData.append(CaseTimeSeriesModel(json: caseSeries))
             }
+            self?.caseTimeSeriesData.append(CaseTimeSeriesModel(json: dailyJson))
             self?.caseTimeSeriesData.reverse()
             self?.selectedCaseData = self?.caseTimeSeriesData[0]
             self?.view?.homeDataSuccess()

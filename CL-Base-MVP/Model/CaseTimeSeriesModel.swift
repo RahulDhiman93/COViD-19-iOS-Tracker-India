@@ -41,7 +41,17 @@ class CaseTimeSeriesModel: NSObject {
         }
         
         if let value = json["date"] as? String {
-            self.date = value
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "dd/MM/yyyy HH:mm:ss"
+            if let date = dateFormatter.date(from: value) {
+                var dateString = ""
+                dateFormatter.dateFormat = "dd"
+                dateString = dateFormatter.string(from: date)
+                dateFormatter.dateFormat = "MMMM"
+                self.date = dateString + " " + dateFormatter.string(from: date)
+            } else {
+                self.date = value
+            }
         }
         
         if let value = json["totalconfirmed"] as? String {
