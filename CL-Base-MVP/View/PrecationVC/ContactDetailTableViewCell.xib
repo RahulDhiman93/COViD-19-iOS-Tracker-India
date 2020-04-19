@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Bold.ttf">
+            <string>Poppins-Bold</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBoldItalic.ttf">
+            <string>Poppins-SemiBoldItalic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContactDetailTableViewCell" rowHeight="166" id="KGk-i7-Jjw" customClass="ContactDetailTableViewCell" customModule="HInd_Trac" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="166"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="166"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Helpline details:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Rc-40-wjn">
+                        <rect key="frame" x="10" y="10" width="300" height="12"/>
+                        <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="kv3-7r-ukz">
+                        <rect key="frame" x="15" y="32" width="295" height="124"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="eQC-ea-hA7">
+                                <rect key="frame" x="0.0" y="0.0" width="295" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfc-NB-l2h">
+                                        <rect key="frame" x="0.0" y="0.0" width="45" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="Y3y-85-ycR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="011-23978046" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RxQ-S5-Yg9">
+                                        <rect key="frame" x="50" y="0.0" width="215" height="25"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBoldItalic" family="Poppins SemiBold" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqI-ZM-zqp">
+                                        <rect key="frame" x="270" y="0.0" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="VqI-ZM-zqp" secondAttribute="height" multiplier="1:1" id="4qG-aK-ciV"/>
+                                            <constraint firstAttribute="height" constant="25" id="G0D-S5-a87"/>
+                                        </constraints>
+                                        <state key="normal" image="call"/>
+                                        <connections>
+                                            <action selector="phoneTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="rRu-qc-8ci"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ITG-bf-Uoj">
+                                <rect key="frame" x="0.0" y="33" width="295" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="him-ae-Qm5">
+                                        <rect key="frame" x="0.0" y="0.0" width="45" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="N88-lm-zoE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ncov2019@gov.in" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THW-jF-h8e">
+                                        <rect key="frame" x="50" y="0.0" width="215" height="25"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBoldItalic" family="Poppins SemiBold" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KXL-fR-2Qb">
+                                        <rect key="frame" x="270" y="0.0" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="k1n-1Y-sb3"/>
+                                            <constraint firstAttribute="width" secondItem="KXL-fR-2Qb" secondAttribute="height" multiplier="1:1" id="oL9-Pj-pRv"/>
+                                        </constraints>
+                                        <state key="normal" image="email"/>
+                                        <connections>
+                                            <action selector="emailTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="yKZ-gY-jvv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="R4G-EZ-uRq">
+                                <rect key="frame" x="0.0" y="66" width="295" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1d-TX-zJi">
+                                        <rect key="frame" x="0.0" y="0.0" width="45" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="zak-0G-Z1d"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arogya Setu" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Kd-Pw-kEd">
+                                        <rect key="frame" x="50" y="0.0" width="215" height="25"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBoldItalic" family="Poppins SemiBold" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7O-vC-NyK">
+                                        <rect key="frame" x="270" y="0.0" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="F7O-vC-NyK" secondAttribute="height" multiplier="1:1" id="ntx-BB-DEe"/>
+                                            <constraint firstAttribute="height" constant="25" id="oEX-Wa-ngC"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="app.badge" catalog="system"/>
+                                        <connections>
+                                            <action selector="appTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="q5c-Pk-tXp"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3F5-si-oim">
+                                <rect key="frame" x="0.0" y="99" width="295" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instagram:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecl-Oz-nv5">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="Bx6-56-OX8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@MyGovIndia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rUE-tr-Cgr">
+                                        <rect key="frame" x="80" y="0.0" width="185" height="25"/>
+                                        <fontDescription key="fontDescription" name="Poppins-SemiBoldItalic" family="Poppins SemiBold" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HsQ-V1-C19">
+                                        <rect key="frame" x="270" y="0.0" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="3yJ-c6-0e5"/>
+                                            <constraint firstAttribute="width" secondItem="HsQ-V1-C19" secondAttribute="height" multiplier="1:1" id="9lS-x8-oaH"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="instagram"/>
+                                        <connections>
+                                            <action selector="instgramTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="QpL-55-1Uo"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="kv3-7r-ukz" secondAttribute="trailing" constant="10" id="8pD-ga-HsX"/>
+                    <constraint firstItem="kv3-7r-ukz" firstAttribute="top" secondItem="7Rc-40-wjn" secondAttribute="bottom" constant="10" id="CJt-Fy-fdR"/>
+                    <constraint firstItem="7Rc-40-wjn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="COd-9L-jWq"/>
+                    <constraint firstAttribute="trailing" secondItem="7Rc-40-wjn" secondAttribute="trailing" constant="10" id="aC5-Ee-0JZ"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="kv3-7r-ukz" secondAttribute="bottom" constant="10" id="f6T-Ep-aK6"/>
+                    <constraint firstItem="kv3-7r-ukz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="gbY-VR-Roa"/>
+                    <constraint firstItem="7Rc-40-wjn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="qqK-u1-UWu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="app" destination="9Kd-Pw-kEd" id="e7d-WN-l32"/>
+                <outlet property="email" destination="THW-jF-h8e" id="Usw-Th-Hud"/>
+                <outlet property="instagram" destination="rUE-tr-Cgr" id="6sw-7J-tIH"/>
+                <outlet property="phoneNumber" destination="RxQ-S5-Yg9" id="5QO-n9-lhp"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="130.58035714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="app.badge" catalog="system" width="128" height="118"/>
+        <image name="call" width="110" height="110"/>
+        <image name="email" width="110" height="110"/>
+        <image name="instagram" width="110" height="110"/>
+    </resources>
+</document>

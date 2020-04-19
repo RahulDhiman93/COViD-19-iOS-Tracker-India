@@ -31,6 +31,8 @@ class PrecautionViewController: UIViewController {
         self.precautionsTableView.contentInset = insets
         self.precautionsTableView.register(UINib(nibName: "MaintainTableViewCell", bundle: nil), forCellReuseIdentifier: "MaintainTableViewCell")
         self.precautionsTableView.register(UINib(nibName: "CompanyInfoTableViewCell", bundle: nil), forCellReuseIdentifier: "CompanyInfoTableViewCell")
+        self.precautionsTableView.register(UINib(nibName: "ContactDetailTableViewCell", bundle: nil), forCellReuseIdentifier: "ContactDetailTableViewCell")
+        
         
     }
 }
@@ -60,6 +62,12 @@ extension PrecautionViewController : UITableViewDelegate, UITableViewDataSource 
                 fatalError()
             }
             return cell
+        case .contactInfo:
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "ContactDetailTableViewCell", for: indexPath) as? ContactDetailTableViewCell else{
+                fatalError()
+            }
+            cell.delegate = self
+            return cell
         case .companyInfo:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "CompanyInfoTableViewCell", for: indexPath) as? CompanyInfoTableViewCell else{
                 fatalError()
@@ -75,6 +83,8 @@ extension PrecautionViewController : UITableViewDelegate, UITableViewDataSource 
         switch Precaution_Sections(rawValue: indexPath.section) {
         case .recommend:
             return 400.0
+        case .contactInfo:
+            return UITableView.automaticDimension
         case .companyInfo:
             return 175.0
         case .none:
@@ -96,4 +106,64 @@ extension PrecautionViewController : UITableViewDelegate, UITableViewDataSource 
             return 10.0
         }
     }
+}
+
+extension PrecautionViewController : ContactDetailTableViewCellDelegate {
+    
+    func phoneAction(number: String) {
+        let phone = number.replacingOccurrences(of: " ", with: "")
+        if let url = URL(string: "tel://\(phone)"), UIApplication.shared.canOpenURL(url) {
+            if #available(iOS 10.0, *) {
+                UIApplication.shared.open(url)
+            } else {
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
+    
+    func emailAction(mailId: String) {
+        let email = mailId
+        if let url = URL(string: "mailto:\(email)") {
+            if #available(iOS 10.0, *) {
+                UIApplication.shared.open(url)
+            } else {
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
+    
+    func appOpen(link: String) {
+        guard let url = URL(string: link) else { return }
+        let application = UIApplication.shared
+        if application.canOpenURL(url) {
+            if #available(iOS 10.0, *) {
+                application.open(url)
+            } else {
+                application.openURL(url)
+            }
+        }
+    }
+    
+    func openInsta(id: String) {
+        let Username = id
+        let appURL = URL(string: "instagram://user?username=\(Username)")!
+        let application = UIApplication.shared
+        
+        if application.canOpenURL(appURL) {
+            if #available(iOS 10.0, *) {
+                application.open(appURL)
+            } else {
+                application.openURL(appURL)
+            }
+        } else {
+            // if Instagram app is not installed, open URL inside Safari
+            let webURL = URL(string: "https://instagram.com/\(Username)")!
+            if #available(iOS 10.0, *) {
+                application.open(webURL)
+            } else {
+                application.openURL(webURL)
+            }
+        }
+    }
+
 }

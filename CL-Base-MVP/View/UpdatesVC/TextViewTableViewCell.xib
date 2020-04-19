@@ -18,27 +18,48 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TextViewTableViewCell" rowHeight="87" id="KGk-i7-Jjw" customClass="TextViewTableViewCell" customModule="COViD_19_IND" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="87"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TextViewTableViewCell" rowHeight="99" id="KGk-i7-Jjw" customClass="TextViewTableViewCell" customModule="HInd_Trac" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="87"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="noc-mF-E1i">
-                        <rect key="frame" x="10" y="5" width="300" height="77"/>
+                        <rect key="frame" x="10" y="5" width="300" height="89"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="kLk-V7-pbi">
-                                <rect key="frame" x="10" y="10" width="280" height="50"/>
+                                <rect key="frame" x="10" y="10" width="280" height="76"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Ago" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhx-ey-qC3">
-                                        <rect key="frame" x="0.0" y="0.0" width="280" height="24"/>
-                                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins SemiBold" pointSize="17"/>
-                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8lk-5m-slk">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="50"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Ago" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhx-ey-qC3">
+                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="50"/>
+                                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins SemiBold" pointSize="17"/>
+                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coronavirus" translatesAutoresizingMaskIntoConstraints="NO" id="Tbd-Zj-A62">
+                                                <rect key="frame" x="255" y="0.0" width="25" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="25" id="Dca-Wl-YfP"/>
+                                                    <constraint firstAttribute="height" constant="25" id="hM3-jh-eGg"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="lhx-ey-qC3" firstAttribute="top" secondItem="8lk-5m-slk" secondAttribute="top" id="75R-nR-acW"/>
+                                            <constraint firstItem="Tbd-Zj-A62" firstAttribute="top" secondItem="8lk-5m-slk" secondAttribute="top" id="IB8-tv-yNg"/>
+                                            <constraint firstItem="lhx-ey-qC3" firstAttribute="leading" secondItem="8lk-5m-slk" secondAttribute="leading" id="X8T-lv-Ivr"/>
+                                            <constraint firstAttribute="bottom" secondItem="lhx-ey-qC3" secondAttribute="bottom" id="dtL-Lt-vIL"/>
+                                            <constraint firstAttribute="trailing" secondItem="Tbd-Zj-A62" secondAttribute="trailing" id="gfV-3p-4dd"/>
+                                            <constraint firstItem="Tbd-Zj-A62" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="lhx-ey-qC3" secondAttribute="trailing" constant="10" id="zBY-Xe-bI7"/>
+                                        </constraints>
+                                    </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="update" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96h-q0-3Mp">
-                                        <rect key="frame" x="0.0" y="29" width="280" height="21"/>
+                                        <rect key="frame" x="0.0" y="55" width="280" height="21"/>
                                         <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="15"/>
                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -73,7 +94,10 @@
                 <outlet property="timeStamp" destination="lhx-ey-qC3" id="T50-35-UIU"/>
                 <outlet property="updatesText" destination="96h-q0-3Mp" id="ADf-wf-nns"/>
             </connections>
-            <point key="canvasLocation" x="137.68115942028987" y="97.433035714285708"/>
+            <point key="canvasLocation" x="137.68115942028987" y="101.45089285714285"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="coronavirus" width="512" height="512"/>
+    </resources>
 </document>

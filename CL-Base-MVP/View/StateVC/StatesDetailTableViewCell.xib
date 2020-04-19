@@ -35,7 +35,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="334" height="162"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="State (ST)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jge-IR-TDD">
-                                        <rect key="frame" x="10" y="10" width="319" height="21"/>
+                                        <rect key="frame" x="10" y="10" width="73" height="21"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins SemiBold" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -283,17 +283,26 @@
                                             </stackView>
                                         </subviews>
                                     </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="virus (1)" translatesAutoresizingMaskIntoConstraints="NO" id="KPX-cU-ITO">
+                                        <rect key="frame" x="299" y="10" width="25" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="25" id="BXj-ao-Y5p"/>
+                                            <constraint firstAttribute="height" constant="25" id="UTl-HH-UcL"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="dhP-2y-eTp" secondAttribute="trailing" constant="10" id="0PN-cG-Po5"/>
+                                    <constraint firstAttribute="trailing" secondItem="KPX-cU-ITO" secondAttribute="trailing" constant="10" id="76q-yH-BSL"/>
                                     <constraint firstItem="Jge-IR-TDD" firstAttribute="leading" secondItem="L7U-xa-qhd" secondAttribute="leading" constant="10" id="7Wt-GX-AoW"/>
                                     <constraint firstItem="Jge-IR-TDD" firstAttribute="top" secondItem="L7U-xa-qhd" secondAttribute="top" constant="10" id="8oH-ud-1ou"/>
                                     <constraint firstItem="djk-uz-RIh" firstAttribute="leading" secondItem="L7U-xa-qhd" secondAttribute="leading" constant="11" id="941-ff-ilL"/>
                                     <constraint firstItem="dhP-2y-eTp" firstAttribute="top" secondItem="djk-uz-RIh" secondAttribute="bottom" constant="10" id="Bu8-HV-PnW"/>
+                                    <constraint firstItem="KPX-cU-ITO" firstAttribute="top" secondItem="L7U-xa-qhd" secondAttribute="top" constant="10" id="L6z-kl-MdZ"/>
                                     <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="dhP-2y-eTp" secondAttribute="bottom" constant="10" id="Qsl-4P-eOX"/>
-                                    <constraint firstAttribute="trailing" secondItem="Jge-IR-TDD" secondAttribute="trailing" constant="5" id="U16-JA-Vsv"/>
                                     <constraint firstItem="djk-uz-RIh" firstAttribute="top" secondItem="Jge-IR-TDD" secondAttribute="bottom" constant="5" id="aCz-QE-ldT"/>
+                                    <constraint firstItem="KPX-cU-ITO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Jge-IR-TDD" secondAttribute="trailing" constant="10" id="aUH-6p-Rc6"/>
                                     <constraint firstItem="dhP-2y-eTp" firstAttribute="leading" secondItem="L7U-xa-qhd" secondAttribute="leading" constant="10" id="nSk-n1-1sj"/>
                                     <constraint firstAttribute="trailing" secondItem="djk-uz-RIh" secondAttribute="trailing" constant="5" id="xmM-EM-zry"/>
                                 </constraints>
@@ -350,4 +359,7 @@
             <point key="canvasLocation" x="162.31884057971016" y="129.24107142857142"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="virus (1)" width="512" height="512"/>
+    </resources>
 </document>

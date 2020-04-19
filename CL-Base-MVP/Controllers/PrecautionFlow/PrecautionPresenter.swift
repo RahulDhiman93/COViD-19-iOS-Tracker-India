@@ -23,6 +23,7 @@ class PrecautionPresenter {
 
 enum Precaution_Sections : Int {
     case recommend = 0
+    case contactInfo
     case companyInfo
     static let count = companyInfo.rawValue + 1
 }

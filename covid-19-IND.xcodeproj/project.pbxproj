@@ -60,6 +60,8 @@
 		088E49552445105D009A1B46 /* AppInfoFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E49542445105D009A1B46 /* AppInfoFiles.swift */; };
 		088E495924451AD6009A1B46 /* FactCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088E495724451AD6009A1B46 /* FactCollectionViewCell.swift */; };
 		088E495A24451AD6009A1B46 /* FactCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 088E495824451AD6009A1B46 /* FactCollectionViewCell.xib */; };
+		08AD5C8F244C7AE700F1A111 /* ContactDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AD5C8D244C7AE700F1A111 /* ContactDetailTableViewCell.swift */; };
+		08AD5C90244C7AE700F1A111 /* ContactDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08AD5C8E244C7AE700F1A111 /* ContactDetailTableViewCell.xib */; };
 		08B433982445FB3F00894B52 /* StatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B433972445FB3F00894B52 /* StatesViewController.swift */; };
 		08B4339A2445FB4F00894B52 /* StatesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B433992445FB4F00894B52 /* StatesPresenter.swift */; };
 		08B4339C2445FB5700894B52 /* StatesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B4339B2445FB5700894B52 /* StatesRouter.swift */; };
@@ -238,6 +240,8 @@
 		088E49542445105D009A1B46 /* AppInfoFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoFiles.swift; sourceTree = "<group>"; };
 		088E495724451AD6009A1B46 /* FactCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactCollectionViewCell.swift; sourceTree = "<group>"; };
 		088E495824451AD6009A1B46 /* FactCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FactCollectionViewCell.xib; sourceTree = "<group>"; };
+		08AD5C8D244C7AE700F1A111 /* ContactDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailTableViewCell.swift; sourceTree = "<group>"; };
+		08AD5C8E244C7AE700F1A111 /* ContactDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactDetailTableViewCell.xib; sourceTree = "<group>"; };
 		08B433972445FB3F00894B52 /* StatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesViewController.swift; sourceTree = "<group>"; };
 		08B433992445FB4F00894B52 /* StatesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesPresenter.swift; sourceTree = "<group>"; };
 		08B4339B2445FB5700894B52 /* StatesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesRouter.swift; sourceTree = "<group>"; };
@@ -290,7 +294,7 @@
 		E29158A116052CCBE976BF23 /* Pods-covid-19-IND.live.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covid-19-IND.live.xcconfig"; path = "Pods/Target Support Files/Pods-covid-19-IND/Pods-covid-19-IND.live.xcconfig"; sourceTree = "<group>"; };
 		E78BE5BF811A159CA4929A16 /* Pods-CL-Base-MVPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CL-Base-MVPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CL-Base-MVPTests/Pods-CL-Base-MVPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC43B179FE4B3893D5A25A6D /* Pods-InforuUITests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InforuUITests.test.xcconfig"; path = "Pods/Target Support Files/Pods-InforuUITests/Pods-InforuUITests.test.xcconfig"; sourceTree = "<group>"; };
-		F46045291FCC2EEA00DC976D /* HInd Trac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HInd Trac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46045291FCC2EEA00DC976D /* Maha-Mari Trac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maha-Mari Trac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46045331FCC2EEA00DC976D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46045381FCC2EEA00DC976D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F460453D1FCC2EEA00DC976D /* covid-19-INDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "covid-19-INDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -524,6 +528,8 @@
 				086D58FE2446F391007EBB2B /* MaintainTableViewCell.xib */,
 				086D59012446F83D007EBB2B /* CompanyInfoTableViewCell.swift */,
 				086D59022446F83D007EBB2B /* CompanyInfoTableViewCell.xib */,
+				08AD5C8D244C7AE700F1A111 /* ContactDetailTableViewCell.swift */,
+				08AD5C8E244C7AE700F1A111 /* ContactDetailTableViewCell.xib */,
 			);
 			path = PrecationVC;
 			sourceTree = "<group>";
@@ -656,7 +662,7 @@
 		F460452A1FCC2EEA00DC976D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F46045291FCC2EEA00DC976D /* HInd Trac.app */,
+				F46045291FCC2EEA00DC976D /* Maha-Mari Trac.app */,
 				F460453D1FCC2EEA00DC976D /* covid-19-INDTests.xctest */,
 				F46045481FCC2EEA00DC976D /* covid-19-INDUITests.xctest */,
 			);
@@ -1074,7 +1080,7 @@
 			);
 			name = "covid-19-IND";
 			productName = "CL-Base-MVP";
-			productReference = F46045291FCC2EEA00DC976D /* HInd Trac.app */;
+			productReference = F46045291FCC2EEA00DC976D /* Maha-Mari Trac.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F460453C1FCC2EEA00DC976D /* covid-19-INDTests */ = {
@@ -1188,6 +1194,7 @@
 				F4975A661FCEA04400B8BB6C /* CLCountryPickerController.xib in Resources */,
 				0846A5892444981B00D8BD91 /* Poppins-Italic.ttf in Resources */,
 				F460456D1FCD3E8200DC976D /* LaunchScreen.storyboard in Resources */,
+				08AD5C90244C7AE700F1A111 /* ContactDetailTableViewCell.xib in Resources */,
 				086D59002446F391007EBB2B /* MaintainTableViewCell.xib in Resources */,
 				0846A5942444981B00D8BD91 /* Poppins-Bold.ttf in Resources */,
 				F46045341FCC2EEA00DC976D /* Assets.xcassets in Resources */,
@@ -1527,6 +1534,7 @@
 				F49759D21FCE8E0000B8BB6C /* String+Extention.swift in Sources */,
 				F4975A691FCEA04400B8BB6C /* CountryManager.swift in Sources */,
 				F4975A681FCEA04400B8BB6C /* Country.swift in Sources */,
+				08AD5C8F244C7AE700F1A111 /* ContactDetailTableViewCell.swift in Sources */,
 				F4975A581FCEA01D00B8BB6C /* ValidationResult.swift in Sources */,
 				F49759CE1FCE8E0000B8BB6C /* CLViewController+Extension.swift in Sources */,
 				F4975A121FCE9E5000B8BB6C /* LogsControl.swift in Sources */,
@@ -1740,7 +1748,7 @@
 					"\"UIKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.covid19.ind;
-				PRODUCT_NAME = "HInd Trac";
+				PRODUCT_NAME = "Maha-Mari Trac";
 				PROVISIONING_PROFILE = "70e8cf61-ec94-4d3b-b689-1bb0fa28f7eb";
 				PROVISIONING_PROFILE_SPECIFIER = HindTrac_Dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "CL-Base-MVP/Model/CL-Base-MVP-Bridging-Header.h";
@@ -1918,7 +1926,7 @@
 					"\"UIKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.covid19.ind;
-				PRODUCT_NAME = "HInd Trac";
+				PRODUCT_NAME = "Maha-Mari Trac";
 				PROVISIONING_PROFILE = "c9f46191-0201-4194-9bbd-24c9e703c21b";
 				PROVISIONING_PROFILE_SPECIFIER = HindTrac_Appstore;
 				SWIFT_OBJC_BRIDGING_HEADER = "CL-Base-MVP/Model/CL-Base-MVP-Bridging-Header.h";
@@ -2095,7 +2103,7 @@
 					"\"UIKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.covid19.ind;
-				PRODUCT_NAME = "HInd Trac";
+				PRODUCT_NAME = "Maha-Mari Trac";
 				PROVISIONING_PROFILE = "c9f46191-0201-4194-9bbd-24c9e703c21b";
 				PROVISIONING_PROFILE_SPECIFIER = HindTrac_Appstore;
 				SWIFT_OBJC_BRIDGING_HEADER = "CL-Base-MVP/Model/CL-Base-MVP-Bridging-Header.h";
@@ -2348,7 +2356,7 @@
 					"\"UIKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.covid19.ind;
-				PRODUCT_NAME = "HInd Trac";
+				PRODUCT_NAME = "Maha-Mari Trac";
 				PROVISIONING_PROFILE = "70e8cf61-ec94-4d3b-b689-1bb0fa28f7eb";
 				PROVISIONING_PROFILE_SPECIFIER = HindTrac_Dev;
 				SWIFT_OBJC_BRIDGING_HEADER = "CL-Base-MVP/Model/CL-Base-MVP-Bridging-Header.h";
@@ -2440,7 +2448,7 @@
 					"\"UIKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.covid19.ind;
-				PRODUCT_NAME = "HInd Trac";
+				PRODUCT_NAME = "Maha-Mari Trac";
 				PROVISIONING_PROFILE = "c9f46191-0201-4194-9bbd-24c9e703c21b";
 				PROVISIONING_PROFILE_SPECIFIER = HindTrac_Appstore;
 				SWIFT_OBJC_BRIDGING_HEADER = "CL-Base-MVP/Model/CL-Base-MVP-Bridging-Header.h";
